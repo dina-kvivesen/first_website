@@ -1,3 +1,3 @@
 # new-repository
 
-This is the second project i've made
+This is the first project i've made
