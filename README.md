@@ -1,3 +1,3 @@
-# new-repository
+# first_website
 
-This is the first project i've made
+Files are organised
