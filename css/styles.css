@@ -1,5 +1,5 @@
 body {
-  background-image: url("backgroundweb.jpg");
+  background-image: img src= "images/backgroundweb.jpg";
   background: rgb(235, 235, 235);
 }
 nav li {
