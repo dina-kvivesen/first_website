@@ -1,0 +1,13 @@
+body {
+  background: rgb(235, 235, 235);
+}
+nav li {
+  display: inline-block;
+}
+nav ul {
+  padding: 0px;
+}
+nav a {
+  color: #0a3641;
+  text-decoration: none;
+}
