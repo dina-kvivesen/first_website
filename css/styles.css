@@ -15,11 +15,9 @@ h1 {
 nav li {
   display: inline-block;
 }
-#logo,
-.nav ul {
+nav ul {
   padding: 0px;
   text-align: center;
-  display: inline-block;
 }
 nav a {
   color: #0a3641;
