@@ -1,8 +1,7 @@
 body {
-  background-image: img src= "images/backgroundweb.jpg";
   background: rgb(235, 235, 235);
 }
-nav li {
+nav {
   display: inline-block;
 }
 nav ul {
