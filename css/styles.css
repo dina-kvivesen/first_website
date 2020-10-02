@@ -10,4 +10,8 @@ nav ul {
 nav a {
   color: #0a3641;
   text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  font-weight: bold;
 }
