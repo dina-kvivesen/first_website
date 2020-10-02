@@ -9,7 +9,7 @@ h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 2rem;
 }
 nav li {
   display: inline-block;
@@ -21,7 +21,7 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 nav a:hover {
   font-weight: bold;
