@@ -4,6 +4,9 @@ body {
 nav li {
   display: inline-block;
 }
+nav li::before {
+  content: img src= "images/logo.png";
+}
 nav ul {
   padding: 0px;
 }
