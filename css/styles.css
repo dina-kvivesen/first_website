@@ -11,6 +11,7 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
+  font-size: 37px;
 }
 nav a:hover {
   font-weight: bold;
