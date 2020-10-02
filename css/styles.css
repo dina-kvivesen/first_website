@@ -1,11 +1,13 @@
 body {
   background: rgb(235, 235, 235);
 }
+nav li {
+  display: inline-block;
+}
 nav ul {
   padding: 0px;
 }
 nav a {
-  display: inline-block;
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
