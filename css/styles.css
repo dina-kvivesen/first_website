@@ -4,6 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
+  background-image: url("backgroundweb.jpg");
 }
 h1 {
   font-family: "caflisch-script-pro";
