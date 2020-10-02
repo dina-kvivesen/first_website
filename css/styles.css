@@ -18,6 +18,7 @@ nav li {
 }
 nav ul {
   padding: 0px;
+  text-align: center;
 }
 nav a {
   color: #0a3641;
