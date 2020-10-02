@@ -1,7 +1,7 @@
 body {
   background: rgb(235, 235, 235);
 }
-nav {
+nav li {
   display: inline-block;
 }
 nav ul {
