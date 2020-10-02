@@ -11,8 +11,13 @@
   font-weight: 400;
 }
 body {
-  font-family: "hero-new";
+  font-family: "hero-new", arial, sans-serif;
   background: rgb(235, 235, 235);
+}
+h1 {
+  font-family: "caflisch-script-pro";
+  font-weight: 400;
+  font-style: normal;
 }
 nav li {
   display: inline-block;
