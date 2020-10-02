@@ -15,16 +15,17 @@ h1 {
 nav li {
   display: inline-block;
 }
-nav ul {
+#logo,
+.nav ul {
   padding: 0px;
   text-align: center;
+  display: inline-block;
 }
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
   font-size: 1.5rem;
-  display: inline-block;
 }
 nav a:hover {
   font-weight: bold;
