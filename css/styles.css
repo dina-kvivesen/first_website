@@ -1,11 +1,9 @@
 body {
   background: rgb(235, 235, 235);
+  font-family: georgia;
 }
 nav li {
   display: inline-block;
-}
-nav li::before {
-  content: "images/logo.png";
 }
 nav ul {
   padding: 0px;
@@ -14,7 +12,7 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
-  font-size: 37px;
+  font-size: 30px;
 }
 nav a:hover {
   font-weight: bold;
