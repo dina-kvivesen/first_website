@@ -1,3 +1,9 @@
+@font-face {
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/https://use.typekit.net/fje3isb.css") format("css");
+}
 body {
   background: rgb(235, 235, 235);
 }
