@@ -7,7 +7,7 @@ body {
 }
 header {
   background-image: url("../images/background.jpeg");
-  min-height: fit-content;
+  min-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
 }
