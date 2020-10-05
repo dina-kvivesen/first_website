@@ -41,6 +41,9 @@ nav a {
   height: 75px;
   width: 140px;
 }
+section {
+  float: right;
+}
 nav a:hover {
   font-weight: bold;
 }
