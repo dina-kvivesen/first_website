@@ -4,8 +4,11 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
+}
+header {
   background-image: url("../images/background.jpeg");
-  background-size: contain;
+  min-height: fit-content;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 h1 {
