@@ -45,8 +45,10 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-main,
 div {
   display: inline-block;
+  align-items: center;
+}
+h2 {
   text-align: center;
 }
