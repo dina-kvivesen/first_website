@@ -35,8 +35,8 @@ nav a {
 }
 #logo {
   float: left;
-  height: 99px;
-  width: 184px;
+  height: 75px;
+  width: 140px;
 }
 nav a:hover {
   font-weight: bold;
