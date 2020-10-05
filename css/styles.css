@@ -43,6 +43,7 @@ nav a {
 }
 section {
   float: right;
+  color: #0a3641;
 }
 nav a:hover {
   font-weight: bold;
