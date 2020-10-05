@@ -21,7 +21,7 @@ nav li {
   display: inline-block;
 }
 #logo {
-  float: left;
+  float: top left;
 }
 nav ul {
   padding: 0px;
