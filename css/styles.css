@@ -6,7 +6,7 @@ body {
   background: rgb(235, 235, 235);
 }
 header {
-  background-image: url("../images/background.jpeg");
+  background-image: url("../images/header.jpg");
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
