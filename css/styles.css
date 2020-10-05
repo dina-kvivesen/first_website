@@ -21,7 +21,7 @@ nav li {
   display: inline-block;
 }
 nav ul {
-  min-height: 120px;
+  min-height: 100px;
   padding: 10px;
   text-align: center;
   background-color: #d9d9d9;
@@ -30,7 +30,7 @@ nav ul {
 nav a {
   color: #0a3641;
   text-decoration: none;
-  padding: 10px;
+  padding: 30px;
   font-size: 1.5rem;
 }
 #logo {
