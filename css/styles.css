@@ -20,10 +20,6 @@ h1 {
 nav li {
   display: inline-block;
 }
-#logo {
-  float: top left;
-  padding-right: 300px;
-}
 nav ul {
   padding: 0px;
   text-align: center;
@@ -33,6 +29,9 @@ nav a {
   text-decoration: none;
   padding: 10px;
   font-size: 1.5rem;
+}
+#logo {
+  float: left;
 }
 nav a:hover {
   font-weight: bold;
