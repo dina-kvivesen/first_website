@@ -21,7 +21,7 @@ nav li {
   display: inline-block;
 }
 nav ul {
-  padding: 0px;
+  padding: 10px;
   text-align: center;
 }
 nav a {
