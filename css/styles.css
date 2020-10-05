@@ -20,7 +20,7 @@ h1 {
 nav li {
   display: inline-block;
 }
-nav li image {
+#logo {
   float: left;
 }
 nav ul {
