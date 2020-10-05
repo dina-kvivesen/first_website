@@ -22,6 +22,7 @@ nav li {
 }
 #logo {
   float: top left;
+  padding-right: 300px;
 }
 nav ul {
   padding: 0px;
