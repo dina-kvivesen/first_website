@@ -22,7 +22,7 @@ h1 {
 }
 nav li {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 nav ul {
   min-height: 80px;
@@ -44,6 +44,7 @@ nav a {
 }
 section {
   float: right;
+  padding-top: 25px;
   color: #0a3641;
 }
 nav a:hover {
