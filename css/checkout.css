@@ -5,6 +5,9 @@ body {
   font-weight: 400;
   background: rgb(235, 235, 235);
 }
+.form__input {
+  display: block;
+}
 nav li {
   display: inline-block;
   padding-top: 25px;
