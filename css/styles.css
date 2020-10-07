@@ -70,6 +70,18 @@ footer li {
   display: inline-block;
   padding: 10px;
 }
-footer ul {
+footer ul div {
   text-align: center;
+}
+input[type="submit"] {
+  background-color: #7a432f;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+footer form {
+  float: right;
 }
