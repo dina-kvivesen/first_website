@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainydays | Pushing the comfort zone</title>
+    <meta name="description" content="jackets for your next adventure" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="index.html"
+            ><img src="images/RainyDays_Logo.png" alt="logo" id="logo"
+          /></a>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="men.html">MEN</a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <section>
+            <i class="fas fa-search" alt="search"></i>
+            <i class="fas fa-heart" alt="favorites"></i>
+            <i class="fas fa-shopping-cart" alt="cart"></i>
+            <a href="checkout.html"
+              ><i class="fas fa-shopping-cart" alt="cart"></i
+            ></a>
+          </section>
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <fieldset>
+        <legend>Shipping address</legend>
+        <label for="fname">First name</label>
+        <input type="text" name="fname" id="fname" class="form__input" />
+        <label for="lname">Surname</label>
+        <input type="text" name="lname" id="lname" class="form__input" />
+        <label for="phone">Your phone number</label>
+        <input type="tel" name="phone" id="phone" class="form__input" />
+        <label for="adr">Street address</label>
+        <input type="text" name="address" id="adr" class="form__input" />
+        <label for="postalcode">Postal code</label>
+        <input
+          type="text"
+          name="postalcode"
+          id="postalcode"
+          class="form__input"
+        />
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" class="form__input" />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="form__input" />
+      </fieldset>
+      <fieldset>
+        <legend>Payment</legend>
+        <label for="fname">Accepted Cards</label>
+        <div class="icon-container">
+          <i class="fa fa-cc-visa" style="color: navy"></i>
+          <i class="fa fa-cc-mastercard" style="color: navy"></i>
+        </div>
+        <label for="cname">Name on Card</label>
+        <input type="text" id="cname" name="cardname" />
+        <label for="ccnum">Credit card number</label>
+        <input type="text" id="ccnum" name="cardnumber" />
+        <label for="expmonth">Exp Month</label>
+        <input type="text" id="expmonth" name="expmonth" />
+        <label for="expyear">Exp Year</label>
+        <input type="text" id="expyear" name="expyear" />
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" />
+      </fieldset>
+    </form>
+  </body>
+</html>
