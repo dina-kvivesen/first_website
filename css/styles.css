@@ -69,6 +69,7 @@ h2 {
 footer li {
   display: inline-block;
   padding: 10px;
+  text-align: center;
 }
 footer ul div {
   text-align: center;
@@ -84,4 +85,5 @@ input[type="submit"]:hover {
 }
 footer form {
   float: right;
+  padding: 10px;
 }
