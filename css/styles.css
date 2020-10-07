@@ -71,9 +71,6 @@ footer li {
   padding: 10px;
   text-align: center;
 }
-footer ul div {
-  text-align: center;
-}
 input[type="submit"] {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
