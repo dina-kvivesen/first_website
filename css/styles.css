@@ -68,4 +68,6 @@ h2 {
 }
 footer li {
   display: inline-block;
+  text-align: center;
+  padding: 10px;
 }
