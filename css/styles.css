@@ -76,7 +76,7 @@ footer ul div {
 }
 input[type="submit"] {
   background-color: #7a432f;
-  color: white;
+  color: rgb(235, 235, 235);
   border: none;
 }
 
