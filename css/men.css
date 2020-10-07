@@ -1,0 +1,52 @@
+body {
+  font-family: "hero-new", arial, sans-serif;
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  background: rgb(235, 235, 235);
+}
+nav li {
+  display: inline-block;
+  padding-top: 25px;
+}
+nav ul {
+  min-height: 80px;
+  padding: 10px;
+  text-align: center;
+  background-color: #d9d9d9;
+  opacity: 88%;
+}
+nav a {
+  color: #0a3641;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+#logo {
+  float: left;
+  height: 75px;
+  width: 140px;
+}
+section {
+  float: right;
+  padding-top: 25px;
+  color: #0a3641;
+}
+nav a:hover {
+  font-weight: bold;
+}
+.active {
+  font-weight: bold;
+}
+div {
+  display: inline-block;
+  align-items: center;
+}
+h1 {
+  font-family: "hero-new", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #0a3641;
+  font-size: 1.8rem;
+  text-align: center;
+}
