@@ -50,3 +50,10 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
 }
+input[type="submit"] {
+  background-color: #7a432f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+}
