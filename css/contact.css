@@ -61,3 +61,6 @@ input[type="submit"] {
   display: block;
   padding: 10px;
 }
+form {
+  display: block;
+}
