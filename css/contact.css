@@ -57,3 +57,7 @@ input[type="submit"] {
   border: none;
   border-radius: 8px;
 }
+.container {
+  display: block;
+  padding: 10px;
+}
