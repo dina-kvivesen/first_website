@@ -57,3 +57,12 @@ h1 {
   border-radius: 50%;
   display: inline-block;
 }
+#green {
+  color: olive;
+}
+#red {
+  color: darkred;
+}
+#beige {
+  color: tan;
+}
