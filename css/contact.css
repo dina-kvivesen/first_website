@@ -62,6 +62,8 @@ form {
 }
 .container {
   float: right;
+  margin-bottom: 20px;
+  padding: 7px 0;
 }
 .service {
   float: left;
