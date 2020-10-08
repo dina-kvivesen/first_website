@@ -33,6 +33,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+img {
+  opacity: 20%;
+}
 section {
   float: right;
   padding-top: 25px;
