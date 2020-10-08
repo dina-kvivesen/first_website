@@ -48,7 +48,7 @@ section {
   padding-top: 25px;
   color: #0a3641;
 }
-div p:hover {
+div p img:hover {
   opacity: 0.5;
 }
 nav a:hover {
