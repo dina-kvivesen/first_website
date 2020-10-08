@@ -62,7 +62,7 @@ form {
   display: inline-block;
 }
 .container {
-  float: inline-end;
+  float: right;
   margin-bottom: 20px;
   padding: 10px;
 }
