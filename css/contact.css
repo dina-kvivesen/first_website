@@ -51,13 +51,13 @@ input[type="submit"] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 25%;
-  margin: 20px;
+  border-radius: 12px;
 }
 .form__input {
   display: block;
   padding: 10px;
   margin: 20px;
+  float: right;
 }
 form {
   display: inline-block;
