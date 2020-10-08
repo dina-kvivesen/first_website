@@ -38,10 +38,6 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-div {
-  display: inline-block;
-  align-items: center;
-}
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
