@@ -50,7 +50,6 @@ section {
 }
 div p img:hover {
   opacity: 0.5;
-  margin: 20%;
 }
 nav a:hover {
   font-weight: bold;
