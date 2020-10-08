@@ -27,9 +27,11 @@ nav a {
   height: 75px;
   width: 140px;
 }
-main {
+header {
   background-image: url("../images/contact.jpeg");
-  opacity: 20%;
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 section {
   float: right;
