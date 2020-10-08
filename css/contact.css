@@ -53,18 +53,16 @@ input[type="submit"] {
   border: none;
   border-radius: 8px;
 }
-.container {
+.form__input {
   display: block;
   padding: 10px;
 }
 form {
-  display: block;
+  display: inline-block;
 }
-.form__input {
-  display: block;
-  padding: 7px;
+.container {
+  float: right;
 }
-#subject {
-  padding: 10px;
-  display: block;
+.service {
+  float: left;
 }
