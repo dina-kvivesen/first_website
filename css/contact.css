@@ -56,7 +56,6 @@ input[type="submit"] {
 .form__input {
   display: block;
   padding: 10px;
-  margin: 20 px;
 }
 form {
   display: inline-block;
