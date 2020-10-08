@@ -27,6 +27,10 @@ nav a {
   height: 75px;
   width: 140px;
 }
+main {
+  background-image: url("../images/contact.jpeg");
+  opacity: 20%;
+}
 section {
   float: right;
   padding-top: 25px;
