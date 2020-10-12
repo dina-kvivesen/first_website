@@ -4,6 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
+  margin: 0px;
 }
 header {
   background-image: url("../images/header.jpg");
@@ -95,8 +96,11 @@ footer ul {
   background-color: white;
 }
 footer li {
-  margin: 0px;
+  margin: 0px 30px;
   padding: 10px;
   display: inline-block;
   background-color: turquoise;
+}
+#footerlogo {
+  size: 60%;
 }
