@@ -85,8 +85,9 @@ footer {
 footer form {
   float: right;
   padding: 10px;
+  background-color: paleturquoise;
 }
-footer li {
+footer ul {
   padding: 10px;
   margin: 10px;
   display: inline-block;
