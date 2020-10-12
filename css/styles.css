@@ -91,12 +91,12 @@ input[type="submit"]:hover {
 footer ul {
   padding: 10px;
   margin: 10px;
-  display: inline;
   text-align: center;
   background-color: white;
 }
 footer li {
   margin: 0px;
   padding: 10px;
+  display: inline-block;
   background-color: turquoise;
 }
