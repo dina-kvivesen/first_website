@@ -8,7 +8,7 @@ body {
 }
 header {
   background-image: url("../images/headercr.jpg");
-  min-height: 800px;
+  min-height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,12 +35,19 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 #logo {
   float: left;
   width: 110px;
   margin-left: 20px;
+  margin-top: 0%;
+}
+#search {
+  width: 30px;
+}
+#faves {
+  width: 30px;
 }
 ul section {
   float: right;
@@ -57,7 +64,7 @@ h1 {
   letter-spacing: 10px;
   position: absolute;
   left: 5%;
-  bottom: 5%;
+  bottom: 0%;
 }
 div p img:hover {
   opacity: 0.5;
