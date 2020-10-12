@@ -49,6 +49,7 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
 }
+
 .column1of3 {
   float: right;
   margin: 0px;
@@ -63,6 +64,9 @@ h1 {
   float: left;
   width: 300px;
   margin: 50px 100px 50px 100px;
+}
+h3 {
+  margin: auto;
 }
 footer {
   clear: both;
