@@ -24,12 +24,12 @@ nav ul {
   top: 0%;
   display: inline-block;
   width: 100%;
-  text-align: center;
 }
-nav li {
+nav li a {
   display: inline-block;
   padding-top: 10px;
   padding-left: 10px;
+  text-align: center;
 }
 
 nav a {
