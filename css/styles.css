@@ -29,7 +29,8 @@ nav ul {
 nav li {
   display: inline-block;
   text-align: center;
-  padding: 5%;
+  padding: 10px 20px;
+  background-color: tomato;
 }
 
 nav a {
