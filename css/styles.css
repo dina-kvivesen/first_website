@@ -4,15 +4,15 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-  margin: 0px;
-}
-header {
   background-image: url("../images/header.jpg");
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 0%;
-  padding-top: 0%;
+  margin: 0px;
+}
+header {
+  margin-top: 0%;
 }
 nav li {
   display: inline-block;
