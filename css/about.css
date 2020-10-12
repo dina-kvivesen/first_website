@@ -49,6 +49,7 @@ h1 {
 .column1of3 {
   float: right;
   margin: 0px;
+  max-width: 460px;
 }
 .column2of3 {
   float: left;
@@ -59,9 +60,6 @@ h1 {
   float: left;
   width: 300px;
   margin: 50px 100px 50px 100px;
-}
-main {
-  display: inline-block;
 }
 footer {
   clear: both;
