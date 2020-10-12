@@ -50,3 +50,14 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
 }
+.column1of3 {
+  float: right;
+}
+.column2of3 {
+  float: left;
+  width: 300px;
+}
+.column3of3 {
+  float: left;
+  margin: 50px 100px 50px 100px;
+}
