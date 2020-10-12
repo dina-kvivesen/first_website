@@ -80,7 +80,7 @@ input[type="submit"]:hover {
   opacity: 0.8;
 }
 footer {
-  display: inline-block;
+  display: inline;
   background-size: cover;
   min-width: cover;
   background-color: white;
