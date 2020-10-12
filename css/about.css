@@ -1,8 +1,9 @@
 body {
-  font-family: "hero-new", arial, sans-serif;
+  font-family: "hero-new", sans-serif;
+  color: #707070;
   font-display: auto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   background: rgb(235, 235, 235);
 }
 nav li {
@@ -57,12 +58,13 @@ h1 {
 }
 .column2of3 {
   float: left;
-  width: 450px;
-  margin: 100px;
+  max-width: 500px;
+  margin: 50px;
+  padding: 0px;
 }
 .column3of3 {
   float: left;
-  width: 300px;
+  max-width: 400px;
   margin: 100px;
 }
 h3 {
