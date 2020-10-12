@@ -31,7 +31,6 @@ nav li {
   text-align: center;
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: tomato;
 }
 
 nav a {
@@ -49,7 +48,7 @@ nav a {
 #logo {
   float: left;
   width: 110px;
-  margin: 5px 0px 5px 15px;
+  margin: 5px 0px 5px 20px;
 }
 #search {
   width: 30px;
