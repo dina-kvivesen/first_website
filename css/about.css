@@ -38,10 +38,6 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-div {
-  display: inline-block;
-  align-items: center;
-}
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -60,4 +56,8 @@ h1 {
 .column3of3 {
   float: left;
   margin: 50px 100px 50px 100px;
+}
+div {
+  display: inline-block;
+  align-items: center;
 }
