@@ -24,11 +24,11 @@ nav ul {
   top: 0%;
   display: inline-block;
   width: 100%;
-  position: relative;
 }
 nav li {
   display: inline-block;
   padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   text-align: center;
 }
@@ -40,13 +40,12 @@ nav a {
   font-size: 1.2rem;
 }
 .icons {
-  display: inline-block;
-  right: 20px;
+  float: right;
   color: #0a3641;
   background-color: thistle;
 }
 #logo {
-  left: 20px;
+  float: left;
   width: 110px;
 }
 #search {
