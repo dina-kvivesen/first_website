@@ -60,6 +60,9 @@ h1 {
   width: 300px;
   margin: 50px 100px 50px 100px;
 }
+main {
+  display: inline-block;
+}
 footer {
   clear: both;
 }
