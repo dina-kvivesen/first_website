@@ -101,3 +101,6 @@ footer li {
   display: inline-block;
   background-color: turquoise;
 }
+#footerlogo {
+  size: 40%;
+}
