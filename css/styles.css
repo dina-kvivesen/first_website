@@ -82,7 +82,7 @@ input[type="submit"]:hover {
 footer {
   display: inline-block;
   background-size: cover;
-  min-width: 1920px;
+  min-width: cover;
   background-color: white;
 }
 footer form {
@@ -93,7 +93,7 @@ footer form {
 footer ul {
   padding: 10px;
   margin: 10px;
-  display: inline;
+  display: inline-block;
   text-align: center;
 }
 .container {
