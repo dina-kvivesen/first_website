@@ -17,10 +17,11 @@ header {
 }
 nav li {
   display: inline-block;
-  padding-top: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 nav ul {
-  min-height: 70px;
+  height: 5%;
   padding: 10px;
   text-align: center;
   background-color: #d9d9d9;
@@ -38,7 +39,7 @@ nav a {
 }
 #logo {
   float: left;
-  width: 120px;
+  width: 110px;
   margin-left: 20px;
 }
 ul section {
