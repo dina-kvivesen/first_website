@@ -27,7 +27,8 @@ nav ul {
   margin: 0%;
   position: fixed;
   top: 0%;
-  display: inline;
+  display: inline-block;
+  width: 100%;
 }
 nav a {
   color: #0a3641;
