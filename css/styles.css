@@ -58,7 +58,7 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-div {
+div p {
   display: inline-block;
   align-items: center;
 }
@@ -93,16 +93,22 @@ footer ul {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background-color: white;
 }
 footer li {
   margin: 0px 30px;
   padding: 10px;
   display: inline-block;
-  background-color: turquoise;
+}
+footer a {
+  text-decoration: none;
+  color: #0a3641;
+}
+footer a:hover {
+  color: #7a432f;
 }
 #footerlogo {
   height: 95px;
   width: 160px;
   float: left;
+  margin: 20px 10px;
 }
