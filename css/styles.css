@@ -73,6 +73,8 @@ h1 {
 }
 div p img:hover {
   opacity: 0.5;
+  position: relative;
+  z-index: initial;
 }
 nav a:hover {
   font-weight: bold;
