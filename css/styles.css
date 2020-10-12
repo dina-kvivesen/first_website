@@ -102,5 +102,7 @@ footer li {
   background-color: turquoise;
 }
 #footerlogo {
-  size: 40%;
+  height: 95px;
+  width: 160px;
+  float: left;
 }
