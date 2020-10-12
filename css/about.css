@@ -60,6 +60,7 @@ h1 {
   width: 500px;
   margin: 50px;
   padding: 0px;
+  background-color: olive;
 }
 .column3of3 {
   float: left;
