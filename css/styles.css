@@ -80,8 +80,8 @@ footer form {
   padding: 10px;
 }
 footer form h3 {
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 input[type="submit"] {
   background-color: #7a432f;
