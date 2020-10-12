@@ -19,6 +19,13 @@ nav li {
   display: inline-block;
   padding-top: 10px;
   padding-left: 10px;
+  text-align: center;
+}
+.icons {
+  display: inline-block;
+  right: 20px;
+  padding-top: 10px;
+  color: #0a3641;
 }
 nav ul {
   padding: 10px;
@@ -46,11 +53,7 @@ nav a {
 #faves {
   width: 30px;
 }
-ul section {
-  right: 20px;
-  padding-top: 10px;
-  color: #0a3641;
-}
+
 h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
