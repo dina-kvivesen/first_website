@@ -7,7 +7,7 @@ body {
   margin: 0px;
 }
 header {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/headercr.jpg");
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ nav li {
   padding-top: 25px;
 }
 nav ul {
-  min-height: 80px;
+  min-height: 70px;
   padding: 10px;
   text-align: center;
   background-color: #d9d9d9;
@@ -37,7 +37,7 @@ nav a {
 }
 #logo {
   float: left;
-  width: 140px;
+  width: 120px;
   margin-left: 20px;
 }
 ul section {
@@ -50,13 +50,12 @@ h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ebebeb;
   letter-spacing: 10px;
   position: absolute;
-  left: 5%;
-  bottom: 5%;
-  background-color: violet;
+  left: 10px;
+  bottom: 10px;
 }
 div p img:hover {
   opacity: 0.5;
