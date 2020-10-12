@@ -79,6 +79,10 @@ footer form {
   float: right;
   padding: 10px;
 }
+footer form h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
 input[type="submit"] {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
