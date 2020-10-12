@@ -46,7 +46,7 @@ ul section {
   color: #0a3641;
   margin-right: 20px;
 }
-.header-text h1 {
+h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
   font-style: normal;
@@ -54,7 +54,7 @@ ul section {
   color: #ebebeb;
   letter-spacing: 10px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 div p img:hover {
   opacity: 0.5;
