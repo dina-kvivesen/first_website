@@ -69,16 +69,6 @@ h2 {
   font-size: 1.8rem;
   text-align: center;
 }
-input[type="submit"] {
-  background-color: #7a432f;
-  color: rgb(235, 235, 235);
-  border: none;
-  border-radius: 8px;
-  padding: 5px;
-}
-input[type="submit"]:hover {
-  opacity: 0.8;
-}
 footer {
   display: inline;
   background-size: cover;
@@ -90,12 +80,19 @@ footer form {
   padding: 10px;
   background-color: paleturquoise;
 }
+input[type="submit"] {
+  background-color: #7a432f;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
 footer ul {
   padding: 10px;
   margin: 10px;
   display: inline-block;
   text-align: center;
-}
-.container {
-  float: right;
 }
