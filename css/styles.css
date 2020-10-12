@@ -29,6 +29,7 @@ nav ul {
 nav li {
   display: inline-block;
   text-align: center;
+  padding-top: 15px;
 }
 
 nav a {
@@ -45,12 +46,15 @@ nav a {
 #logo {
   float: left;
   width: 110px;
+  padding: 0px;
+  margin: 0px;
 }
 #search {
   width: 30px;
 }
 #faves {
   width: 30px;
+  left: 5px;
 }
 #cart {
   width: 30px;
