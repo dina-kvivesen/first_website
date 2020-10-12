@@ -52,7 +52,7 @@ h1 {
   color: #ebebeb;
   letter-spacing: 10px;
   text-align: center;
-  padding-top: 60px;
+  margin-top: 80px;
 }
 div p img:hover {
   opacity: 0.5;
