@@ -12,16 +12,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-h1 {
-  font-family: "caflisch-script-pro";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3rem;
-  padding-top: 60px;
-  color: #ebebeb;
-  letter-spacing: 10px;
-  text-align: center;
-}
 nav li {
   display: inline-block;
   padding-top: 25px;
@@ -32,8 +22,10 @@ nav ul {
   text-align: center;
   background-color: #d9d9d9;
   opacity: 88%;
-  margin: 0px;
+  margin: 0%;
   position: fixed;
+  top: 0%;
+  width: 100%;
 }
 nav a {
   color: #0a3641;
@@ -49,6 +41,16 @@ section {
   float: right;
   padding-top: 25px;
   color: #0a3641;
+}
+h1 {
+  font-family: "caflisch-script-pro";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: #ebebeb;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 60px;
 }
 div p img:hover {
   opacity: 0.5;
