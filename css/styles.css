@@ -53,8 +53,8 @@ h1 {
   font-size: 3rem;
   color: #ebebeb;
   letter-spacing: 10px;
+  position: absolute;
   text-align: center;
-  margin-top: 60px;
 }
 div p img:hover {
   opacity: 0.5;
