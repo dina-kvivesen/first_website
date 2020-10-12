@@ -96,5 +96,7 @@ footer ul {
   background-color: white;
 }
 footer li {
+  margin: 0px;
+  padding: 10px;
   background-color: turquoise;
 }
