@@ -15,21 +15,8 @@ header {
   margin-top: 0%;
   margin-top: 0%;
 }
-nav li {
-  display: inline-block;
-  padding-top: 10px;
-  padding-left: 10px;
-  text-align: center;
-}
-.icons {
-  display: inline-block;
-  right: 20px;
-  padding-top: 10px;
-  color: #0a3641;
-  background-color: thistle;
-}
+
 nav ul {
-  padding: 10px;
   background-color: #d9d9d9;
   opacity: 88%;
   margin: 0%;
@@ -38,11 +25,24 @@ nav ul {
   display: inline-block;
   width: 100%;
 }
+nav li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
   font-size: 1.2rem;
+}
+.icons {
+  display: inline-block;
+  right: 20px;
+  color: #0a3641;
+  background-color: thistle;
 }
 #logo {
   left: 20px;
