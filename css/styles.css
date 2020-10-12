@@ -42,7 +42,6 @@ nav a {
 }
 #logo {
   float: left;
-  height: 75px;
   width: 140px;
 }
 section {
@@ -99,6 +98,7 @@ footer ul {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  overflow: auto;
 }
 footer li {
   margin: 0px 100px;
@@ -113,8 +113,6 @@ footer a:hover {
   color: #7a432f;
 }
 #footerlogo {
-  height: 95px;
   width: 170px;
   float: left;
-  margin-top: 40px;
 }
