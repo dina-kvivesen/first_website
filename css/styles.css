@@ -22,14 +22,12 @@ nav ul {
   margin: 0%;
   position: fixed;
   top: 0%;
-  display: inline-block;
+  text-align: center;
   width: 100%;
+  padding: 15px;
 }
 nav li {
   display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
   text-align: center;
 }
 
@@ -42,7 +40,7 @@ nav a {
 .icons {
   float: right;
   color: #0a3641;
-  background-color: thistle;
+  padding: 15px;
 }
 #logo {
   float: left;
@@ -54,7 +52,9 @@ nav a {
 #faves {
   width: 30px;
 }
-
+#cart {
+  width: 30px;
+}
 h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
