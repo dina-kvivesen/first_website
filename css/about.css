@@ -60,8 +60,6 @@ h1 {
   width: 500px;
   margin: 50px;
   padding: 0px;
-  display: inline-block;
-  margin: auto;
 }
 .column3of3 {
   float: left;
@@ -69,7 +67,7 @@ h1 {
   margin: 100px;
 }
 h3 {
-  margin: auto;
+  text-align: center;
 }
 footer {
   clear: both;
