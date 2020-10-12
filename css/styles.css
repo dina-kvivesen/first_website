@@ -86,10 +86,9 @@ footer form {
   float: right;
   padding: 10px;
 }
-footer,
-li {
-  padding: 30px;
-  margin: 50px;
+footer li {
+  padding: 10px;
+  margin: 10px;
   text-align: center;
 }
 .container {
