@@ -115,4 +115,5 @@ footer a:hover {
 #footerlogo {
   width: 170px;
   float: left;
+  overflow: auto;
 }
