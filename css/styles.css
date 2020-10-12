@@ -81,6 +81,7 @@ input[type="submit"]:hover {
 }
 footer {
   display: inline-block;
+  max-width: 2000px;
   background-color: white;
 }
 footer form {
