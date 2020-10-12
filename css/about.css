@@ -50,9 +50,6 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
 }
-h3 {
-  text-align: center;
-}
 .column1of3 {
   float: right;
   margin: 0px;
@@ -61,15 +58,19 @@ h3 {
 .column2of3 {
   float: left;
   width: 500px;
-  margin: 50px 25px 25px 100px;
+  margin: 50px;
   padding: 0px;
+  display: inline-block;
+  margin: auto;
 }
 .column3of3 {
   float: left;
   width: 400px;
   margin: 100px;
 }
-
+h3 {
+  margin: auto;
+}
 footer {
   clear: both;
 }
