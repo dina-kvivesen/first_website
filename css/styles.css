@@ -23,13 +23,13 @@ nav li {
 nav ul {
   height: 7%;
   padding: 10px;
-  text-align: center;
   background-color: #d9d9d9;
   opacity: 88%;
   margin: 0%;
   position: fixed;
   top: 0%;
   width: 100%;
+  text-align: center;
 }
 nav a {
   color: #0a3641;
@@ -38,10 +38,8 @@ nav a {
   font-size: 1.2rem;
 }
 #logo {
-  float: left;
+  left: 20px;
   width: 110px;
-  margin-left: 20px;
-  margin-top: 0%;
 }
 #search {
   width: 30px;
@@ -50,10 +48,9 @@ nav a {
   width: 30px;
 }
 ul section {
-  float: right;
+  right: 20px;
   padding-top: 10px;
   color: #0a3641;
-  margin-right: 20px;
 }
 h1 {
   font-family: "caflisch-script-pro";
