@@ -73,12 +73,10 @@ footer {
   display: inline;
   background-size: cover;
   min-width: cover;
-  background-color: white;
 }
 footer form {
   float: right;
   padding: 10px;
-  background-color: paleturquoise;
 }
 input[type="submit"] {
   background-color: #7a432f;
@@ -93,6 +91,10 @@ input[type="submit"]:hover {
 footer ul {
   padding: 10px;
   margin: 10px;
-  display: inline-block;
+  display: inline;
   text-align: center;
+  background-color: white;
+}
+footer li {
+  background-color: turquoise;
 }
