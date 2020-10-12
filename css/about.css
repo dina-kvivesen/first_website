@@ -58,12 +58,12 @@ h1 {
 .column2of3 {
   float: left;
   width: 450px;
-  text-align: center;
+  margin: 100px;
 }
 .column3of3 {
   float: left;
   width: 300px;
-  text-align: center;
+  margin: 100px;
 }
 h3 {
   text-align: center;
