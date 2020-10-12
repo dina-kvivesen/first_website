@@ -57,3 +57,6 @@ h1 {
   float: left;
   margin: 50px 100px 50px 100px;
 }
+footer {
+  clear: both;
+}
