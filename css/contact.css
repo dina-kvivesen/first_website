@@ -65,14 +65,11 @@ input[type="submit"] {
   margin: 20px;
 }
 form {
-  display: inline-block;
-  margin-bottom: 20px;
+  display: block;
   padding: 10px;
-}
-.service {
-  display: inline-block;
 }
 .container {
   width: 1280px;
   margin: 10px auto;
+  display: inline-block;
 }
