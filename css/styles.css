@@ -42,6 +42,7 @@ nav a {
 }
 .icons {
   color: #0a3641;
+  align-self: baseline;
 }
 #logo {
   align-self: flex-start;
