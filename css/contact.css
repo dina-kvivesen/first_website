@@ -68,6 +68,9 @@ form {
   display: inline-block;
   padding: 10px;
 }
+.column1 {
+  display: inline-block;
+}
 .container {
   max-width: 900px;
   margin: 10px auto;
