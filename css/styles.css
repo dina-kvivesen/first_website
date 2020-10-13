@@ -26,7 +26,6 @@ nav ul {
   z-index: 100;
   width: 100%;
   padding: 0px;
-  max-width: 100%;
 }
 nav li {
   display: flex;
@@ -40,13 +39,11 @@ nav a {
   text-decoration: none;
   padding: 10px;
   font-size: 1.2rem;
-  text-align: center;
 }
 .icons {
   align-self: flex-end;
   color: #0a3641;
   padding: 15px;
-  margin-top: 10px;
 }
 #logo {
   align-self: flex-start;
