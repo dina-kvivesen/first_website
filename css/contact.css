@@ -68,11 +68,13 @@ input[type="submit"] {
 #subject {
   min-width: 200px;
   max-width: 400px;
+  max-height: 400px;
 }
 form {
   float: right;
   padding: 10px;
   margin: 5% 10%;
+  overflow: scroll;
 }
 .column1 {
   float: left;
