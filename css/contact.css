@@ -66,13 +66,13 @@ input[type="submit"] {
 }
 form {
   display: block;
-  float: right;
-}
-.container {
-  float: right;
   margin-bottom: 20px;
   padding: 10px;
 }
+.container {
+  width: 1280px;
+  margin: 10px auto;
+}
 .service {
-  float: left;
+  display: block;
 }
