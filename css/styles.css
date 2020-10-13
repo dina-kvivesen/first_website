@@ -52,14 +52,14 @@ nav a {
   margin: 5px 0px 5px 20px;
 }
 #search {
-  font-size: 15px;
+  font-size: 25px;
 }
 #faves {
-  font-size: 15px;
+  font-size: 25px;
   margin-left: 15px;
 }
 #cart {
-  width: 30px;
+  font-size: 25px;
 }
 h1 {
   font-family: "caflisch-script-pro";
