@@ -47,20 +47,20 @@ nav a {
 }
 #logo {
   align-self: flex-start;
-  display: block;
   width: 110px;
   margin: 5px 0px 5px 20px;
 }
 #search {
-  display: block;
+  display: inline-flex;
   font-size: 20px;
 }
 #faves {
-  display: block;
+  display: inline-flex;
   font-size: 20px;
   margin-left: 15px;
 }
 #cart {
+  display: inline-flex;
   font-size: 20px;
 }
 h1 {
