@@ -60,6 +60,9 @@ input[type="submit"] {
   border-radius: 12px;
   margin-left: 20px;
 }
+.container {
+  display: inline-block;
+}
 .form__input {
   display: block;
   padding: 10px;
@@ -71,6 +74,6 @@ form {
   margin: 10%;
 }
 .column1 {
-float: left
-  margin: 10%;
+  float: left;
+  margin: 20%;
 }
