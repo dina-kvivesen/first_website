@@ -68,9 +68,9 @@ input[type="submit"] {
 form {
   float: right;
   padding: 10px;
-  margin: 10%;
+  margin: 5% 10%;
 }
 .column1 {
   float: left;
-  margin: 20%;
+  margin: 10% 20%;
 }
