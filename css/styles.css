@@ -53,6 +53,7 @@ nav a {
 #search {
   display: inline-flex;
   font-size: 20px;
+  background-color: blue;
 }
 #faves {
   display: inline-flex;
