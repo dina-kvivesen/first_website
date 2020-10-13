@@ -26,6 +26,7 @@ nav ul {
   text-align: center;
   width: 100%;
   padding: 0px;
+  overflow: hidden;
 }
 nav li {
   display: inline-block;
