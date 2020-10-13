@@ -50,15 +50,6 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
 }
-#green {
-  color: olive;
-}
-#red {
-  color: darkred;
-}
-#beige {
-  color: tan;
-}
 
 .dot {
   height: 25px;
@@ -75,4 +66,5 @@ h1 {
 
 .item {
   margin: 5px;
+  padding: 0px;
 }
