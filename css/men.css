@@ -71,6 +71,24 @@ h1 {
   background-color: tan;
   border-radius: 50%;
 }
+.dot4 {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+.dot5 {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.dot6 {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+}
 .container {
   display: flex;
   flex-flow: row wrap;
