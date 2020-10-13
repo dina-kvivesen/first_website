@@ -32,6 +32,7 @@ header {
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: scroll;
 }
 section {
   float: right;
@@ -74,7 +75,6 @@ form {
   float: right;
   padding: 10px;
   margin: 5% 10%;
-  overflow: scroll;
 }
 .column1 {
   float: left;
