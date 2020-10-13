@@ -58,7 +58,7 @@ input[type="submit"] {
   padding: 12px 20px;
   border: none;
   border-radius: 12px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .form__input {
   display: block;
@@ -66,17 +66,11 @@ input[type="submit"] {
   margin: 20px;
 }
 form {
-  display: inline-block;
-  position: relative;
-  right: 20px;
-  top: 10px;
+  float: right;
   padding: 10px;
   margin: 10%;
 }
 .column1 {
-  display: inline-block;
-  position: relative;
-  left: 20px;
-  top: 20px;
+float: left
   margin: 10%;
 }
