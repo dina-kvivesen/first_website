@@ -43,11 +43,12 @@ nav a {
 .icons {
   color: #0a3641;
   align-self: center;
+  margin-right: 20px;
 }
 #logo {
   align-self: flex-start;
   width: 110px;
-  margin: 5px 0px 5px 20px;
+  margin-left: 20px;
 }
 #search {
   display: inline-flex;
