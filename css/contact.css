@@ -65,7 +65,7 @@ input[type="submit"] {
   margin: 20px;
 }
 form {
-  display: block;
+  display: inline-block;
   padding: 10px;
 }
 .container {
