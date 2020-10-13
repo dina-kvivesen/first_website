@@ -58,6 +58,7 @@ input[type="submit"] {
   padding: 12px 20px;
   border: none;
   border-radius: 12px;
+  margin-left: 10px;
 }
 .form__input {
   display: block;
@@ -70,8 +71,10 @@ form {
 }
 .column1 {
   display: inline-block;
+  margin-bottom: 50%;
 }
 .container {
   max-width: 900px;
   margin: auto;
+  background-color: khaki;
 }
