@@ -52,11 +52,11 @@ nav a {
   margin: 5px 0px 5px 20px;
 }
 #search {
-  width: 40px;
+  font-size: 15px;
 }
 #faves {
-  width: 40px;
-  margin-left: 12px;
+  font-size: 15px;
+  margin-left: 15px;
 }
 #cart {
   width: 30px;
