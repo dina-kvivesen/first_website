@@ -30,14 +30,13 @@ nav ul {
 nav li {
   display: flex;
   flex-flow: row wrap;
+  display: block;
   justify-content: center;
   list-style: none;
 }
-
 nav a {
   color: #0a3641;
   text-decoration: none;
-  display: block;
   padding: 10px;
   font-size: 1.2rem;
 }
