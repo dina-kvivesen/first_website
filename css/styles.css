@@ -14,7 +14,7 @@ header {
   background-position: center;
   margin-top: 0%;
   margin-top: 0%;
-  overflow: auto;
+  overflow: scroll;
 }
 
 nav ul {
