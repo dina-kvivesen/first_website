@@ -37,6 +37,7 @@ nav li {
 nav a {
   color: #0a3641;
   text-decoration: none;
+  display: block;
   padding: 10px;
   font-size: 1.2rem;
 }
