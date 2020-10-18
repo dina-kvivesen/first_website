@@ -43,18 +43,6 @@ nav a {
   font-size: 1.2rem;
 }
 
-nav li {
-  display: none;
-}
-
-#hamburger-menu {
-  display: none;
-}
-
-#hamburger-menu:checked ~ nav li {
-  display: block;
-}
-
 .icons {
   color: #0a3641;
   align-self: center;
@@ -156,4 +144,18 @@ footer a:hover {
   width: 170px;
   float: left;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav li {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ nav li {
+    display: block;
+  }
 }
