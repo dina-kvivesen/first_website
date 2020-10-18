@@ -27,9 +27,7 @@ nav ul {
   width: 100%;
   padding: 0px;
 }
-#hamburger-menu {
-  display: none;
-}
+
 nav li {
   display: flex;
   flex-flow: row wrap;
@@ -89,6 +87,9 @@ nav a:hover {
 }
 .active {
   font-weight: bold;
+}
+#hamburger-menu {
+  display: none;
 }
 div p {
   display: inline-block;
@@ -152,10 +153,10 @@ footer a:hover {
   nav li {
     display: none;
   }
-  #hamburger-menub {
+  #hamburger-menu {
     display: none;
   }
-  #hamburger-menub:checked ~ nav li {
+  #hamburger-menu:checked ~ nav li {
     display: block;
   }
 }
