@@ -152,10 +152,10 @@ footer a:hover {
   nav li {
     display: none;
   }
-  #hamburger-menu {
+  #hamburger-menub {
     display: none;
   }
-  #hamburger-menu:checked ~ nav li {
+  #hamburger-menub:checked ~ nav li {
     display: block;
   }
 }
