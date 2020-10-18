@@ -149,11 +149,10 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  nav li {
-    display: none;
-  }
-
   #hamburger-menu {
+    font-display: block;
+  }
+  nav li {
     display: none;
   }
 
