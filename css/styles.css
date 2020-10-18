@@ -89,7 +89,7 @@ nav a:hover {
   font-weight: bold;
 }
 #hamburger-menu_label {
-  display: none;
+  display: none !important;
 }
 div p {
   display: inline-block;
