@@ -34,12 +34,26 @@ nav li {
   align-self: center;
   list-style: none;
 }
+
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
   font-size: 1.2rem;
 }
+
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
 .icons {
   color: #0a3641;
   align-self: center;
