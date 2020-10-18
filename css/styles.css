@@ -88,7 +88,7 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-nav #hamburger-menu {
+#hamburger-menu_label {
   display: none;
 }
 div p {
