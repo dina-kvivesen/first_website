@@ -27,7 +27,10 @@ nav ul {
   width: 100%;
   padding: 0px;
 }
-
+nav li {
+  display: flex;
+  flex-direction: column;
+}
 nav a {
   color: #0a3641;
   text-decoration: none;
@@ -149,6 +152,19 @@ footer a:hover {
 
 /*desktop styles*/
 @media only screen and (min-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    opacity: 88%;
+    margin: 0%;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0px;
+  }
+
   #hamburger-menu {
     display: none;
   }
