@@ -169,4 +169,7 @@ footer a:hover {
     flex-direction: row;
     justify-content: space-around;
   }
+  .footer_list {
+    background-color: blue;
+  }
 }
