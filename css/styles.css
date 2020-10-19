@@ -155,11 +155,20 @@ footer a:hover {
   margin-top: 40px;
 }
 
+/*desktop styles*/
 @media only screen and (min-width: 600px) {
   #hamburger-menu {
     display: none;
   }
   label[for="hamburger-menu"] {
     display: none !important;
+  }
+
+  nav li {
+    display: flex;
+    flex-flow: row wrap;
+    display: block;
+    align-self: center;
+    list-style: none;
   }
 }
