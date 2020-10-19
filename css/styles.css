@@ -129,8 +129,7 @@ input[type="submit"]:hover {
 }
 
 .footer_list {
-  flex: 2;
-  display: block;
+  flex: 1;
 }
 footer a {
   text-decoration: none;
@@ -138,9 +137,6 @@ footer a {
 }
 footer a:hover {
   color: #7a432f;
-}
-#footerlogo {
-  width: 170px;
 }
 
 /*desktop styles*/
@@ -171,5 +167,9 @@ footer a:hover {
     display: block;
     align-self: center;
     list-style: none;
+  }
+
+  footer {
+    flex-direction: row;
   }
 }
