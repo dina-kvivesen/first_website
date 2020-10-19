@@ -112,10 +112,6 @@ footer {
   width: 100%;
 }
 
-footer form h3 {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
 input[type="submit"] {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
@@ -171,6 +167,6 @@ footer a:hover {
 
   footer {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
