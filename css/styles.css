@@ -111,10 +111,7 @@ footer {
   flex-direction: column;
   width: 100%;
 }
-footer form {
-  float: right;
-  padding: 10px;
-}
+
 footer form h3 {
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -130,15 +127,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 0.8;
 }
-footer ul {
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-}
-footer li {
-  margin: 0px 100px;
-  padding: 10px;
-  display: inline-block;
+
+.footer_list {
+  flex: 1;
 }
 footer a {
   text-decoration: none;
@@ -149,8 +140,6 @@ footer a:hover {
 }
 #footerlogo {
   width: 170px;
-  float: left;
-  margin-top: 40px;
 }
 
 /*desktop styles*/
