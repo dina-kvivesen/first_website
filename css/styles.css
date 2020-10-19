@@ -28,14 +28,6 @@ nav ul {
   padding: 0px;
 }
 
-nav li {
-  display: flex;
-  flex-flow: row wrap;
-  display: block;
-  align-self: center;
-  list-style: none;
-}
-
 nav a {
   color: #0a3641;
   text-decoration: none;
