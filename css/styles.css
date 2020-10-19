@@ -85,15 +85,14 @@ nav a:hover {
 nav li {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
 }
 nav li {
   display: none;
 }
-nav #hamburger-menu {
+#hamburger-menu {
   display: none;
 }
-nav #hamburger-menu:checked ~ nav li {
+#hamburger-menu:checked ~ nav li {
   display: block;
 }
 div p {
