@@ -88,7 +88,10 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-#hamburger-menu_label {
+#hamburger-menu {
+  display: none;
+}
+label[for="hamburger-menu"] {
   display: none !important;
 }
 div p {
@@ -159,4 +162,7 @@ footer a:hover {
   #hamburger-menu:checked ~ nav li {
     display: block;
   }
+}
+
+@media only screen and (min-width: 600px) {
 }
