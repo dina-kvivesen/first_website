@@ -16,7 +16,7 @@ header {
   margin-top: 0%;
 }
 
-nav ul {
+nav {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
