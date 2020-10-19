@@ -167,6 +167,6 @@ footer a:hover {
 
   footer {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 }
