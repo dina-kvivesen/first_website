@@ -59,11 +59,7 @@ nav a {
   display: inline-flex;
   font-size: 20px;
 }
-nav li {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-}
+
 h1 {
   font-family: "caflisch-script-pro";
   font-weight: 400;
@@ -87,12 +83,17 @@ nav a:hover {
   font-weight: bold;
 }
 nav li {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+nav li {
   display: none;
 }
-#hamburger-menu {
+nav #hamburger-menu {
   display: none;
 }
-#hamburger-menu:checked ~ nav li {
+nav #hamburger-menu:checked ~ nav li {
   display: block;
 }
 div p {
