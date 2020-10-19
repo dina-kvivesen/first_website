@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-  margin: 0px auto;
+  margin: 0px;
 }
 header {
   background-image: url("../images/headercr.jpg");
@@ -107,8 +107,9 @@ h2 {
   text-align: center;
 }
 footer {
-  display: inline;
-  min-width: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 footer form {
   float: right;
