@@ -167,9 +167,6 @@ footer a:hover {
 
   footer {
     flex-direction: row;
-    justify-content: space-around;
-  }
-  .footer_list {
-    background-color: blue;
+    justify-content: space-evenly;
   }
 }
