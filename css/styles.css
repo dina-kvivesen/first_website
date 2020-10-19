@@ -17,7 +17,6 @@ header {
 }
 nav ul {
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-between;
   background-color: #d9d9d9;
   opacity: 88%;
@@ -27,10 +26,7 @@ nav ul {
   width: 100%;
   padding: 0px;
 }
-nav li {
-  display: flex;
-  flex-direction: column;
-}
+
 nav a {
   color: #0a3641;
   text-decoration: none;
@@ -44,7 +40,7 @@ nav a {
   margin-right: 20px;
 }
 #logo {
-  align-self: flex-start;
+  align-self: center;
   width: 110px;
   margin-left: 20px;
 }
@@ -60,6 +56,11 @@ nav a {
 #cart {
   display: inline-flex;
   font-size: 20px;
+}
+nav li {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
 h1 {
   font-family: "caflisch-script-pro";
