@@ -168,5 +168,6 @@ footer a:hover {
   footer {
     flex-direction: row;
     justify-content: center;
+    background-color: blue;
   }
 }
