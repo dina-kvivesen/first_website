@@ -94,7 +94,7 @@ nav li {
 }
 #hamburger-menu:checked ~ nav li {
   display: flex;
-  flex-direction: column;
+  flex-direction: column wrap;
 }
 div p {
   display: inline-block;
