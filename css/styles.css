@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-  margin: 0px;
+  margin: 0px auto;
 }
 header {
   background-image: url("../images/headercr.jpg");
