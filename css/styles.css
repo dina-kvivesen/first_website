@@ -84,7 +84,7 @@ nav a:hover {
 }
 nav li {
   display: flex;
-  flex-direction: column;
+  flex-direction: column wrap;
 }
 nav li {
   display: none;
