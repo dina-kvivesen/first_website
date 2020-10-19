@@ -17,6 +17,7 @@ header {
 }
 nav ul {
   display: flex;
+  flex-flow: column;
   justify-content: space-between;
   background-color: #d9d9d9;
   opacity: 88%;
