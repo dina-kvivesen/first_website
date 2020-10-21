@@ -139,6 +139,19 @@ footer a:hover {
 
 /*desktop styles*/
 @media only screen and (min-width: 600px) {
+  #hamburger-menu {
+    display: none;
+  }
+  label[for="hamburger-menu"] {
+    display: none !important;
+  }
+
+  nav li {
+    display: flex;
+    display: block;
+    align-self: center;
+    list-style: none;
+  }
   nav ul {
     display: flex;
     align-items: baseline;
@@ -150,21 +163,6 @@ footer a:hover {
     z-index: 100;
     width: 100%;
     padding: 0px;
-  }
-
-  #hamburger-menu {
-    display: none;
-  }
-  label[for="hamburger-menu"] {
-    display: none !important;
-  }
-
-  nav li {
-    display: flex;
-    flex-flow: row wrap;
-    display: block;
-    align-self: center;
-    list-style: none;
   }
 
   footer {
