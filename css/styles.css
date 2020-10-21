@@ -91,7 +91,7 @@ nav li {
 #hamburger-menu {
   display: none;
 }
-#hamburger-menu:checked nav li {
+nav #hamburger-menu:checked ~ nav li {
   display: flex;
 }
 div p {
