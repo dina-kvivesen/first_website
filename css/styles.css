@@ -155,7 +155,9 @@ footer a:hover {
     align-self: center;
     list-style: none;
   }
-
+  nav ul {
+    justify-content: center;
+  }
   nav #logo {
     justify-content: left;
     width: 110px;
