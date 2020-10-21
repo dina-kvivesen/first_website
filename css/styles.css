@@ -84,7 +84,6 @@ nav a:hover {
 }
 nav li {
   display: flex;
-  flex-direction: column wrap;
 }
 nav li {
   display: none;
@@ -94,7 +93,6 @@ nav li {
 }
 #hamburger-menu:checked ~ nav li {
   display: flex;
-  flex-direction: column wrap;
 }
 div p {
   display: inline-block;
