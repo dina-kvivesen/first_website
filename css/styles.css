@@ -136,7 +136,7 @@ footer a:hover {
 }
 
 /*desktop styles*/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
   #hamburger-menu {
     display: none;
   }
@@ -162,7 +162,7 @@ footer a:hover {
     width: 100%;
     padding: 0px;
   }
-  #hamburger-menu::before {
+  nav li::before {
     content: "#logo";
   }
   footer {
