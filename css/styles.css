@@ -155,12 +155,12 @@ footer a:hover {
 
   nav li {
     display: inline-block;
-    align-self: center;
     list-style: none;
+    padding: 5px;
   }
   nav ul {
     display: inline-block;
-    justify-content: center;
+    text-align: center;
   }
   .icons {
     float: right;
