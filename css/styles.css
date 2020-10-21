@@ -158,9 +158,8 @@ footer a:hover {
     list-style: none;
     padding: 5px;
   }
-  nav {
+  nav ul {
     display: inline-block;
-    text-align: center;
   }
   .icons {
     float: right;
@@ -170,6 +169,9 @@ footer a:hover {
     float: left;
     width: 110px;
     margin: 5px 10px;
+  }
+  nav {
+    text-align: center;
   }
   footer {
     flex-direction: row;
