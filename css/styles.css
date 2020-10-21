@@ -162,9 +162,7 @@ footer a:hover {
     width: 100%;
     padding: 0px;
   }
-  nav ul::before {
-    content: url("../images/RainyDays_Logo.png");
-    max-width: 110px;
+  #logo {
     align-self: flex-start;
   }
   footer {
