@@ -120,6 +120,10 @@ footer a:hover {
 
 /*mobile styles*/
 @media only screen and (max-width: 799px) {
+  nav {
+    display: inline-flex;
+  }
+
   #logo {
     align-self: center;
     width: 110px;
@@ -155,14 +159,16 @@ footer a:hover {
   }
   nav ul {
     display: inline-block;
-    align-items: center;
+    margin: auto;
   }
   .icons {
     float: right;
+    margin: auto 10px 0px;
   }
   #logo {
     float: left;
     width: 110px;
+    margin: 5px 5px;
   }
   footer {
     flex-direction: row;
