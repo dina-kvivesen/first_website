@@ -157,7 +157,7 @@ footer a:hover {
   }
 
   nav #logo {
-    align-self: flex-start;
+    justify-content: left;
     width: 110px;
   }
   footer {
