@@ -149,7 +149,18 @@ footer a:hover {
   label[for="hamburger-menu"] {
     display: none !important;
   }
-
+  nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    opacity: 88%;
+    margin: 0%;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0px;
+  }
   nav li {
     display: inline-flex;
     align-self: center;
@@ -158,6 +169,7 @@ footer a:hover {
 
   #logo {
     align-self: flex-start;
+    width: 110px;
   }
   footer {
     flex-direction: row;
