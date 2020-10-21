@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-  display: flex;
+  display: inline-block;
   flex-flow: row;
   justify-content: space-between;
   background-color: #d9d9d9;
