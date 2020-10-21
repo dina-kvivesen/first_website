@@ -144,12 +144,6 @@ footer a:hover {
     display: none !important;
   }
 
-  nav li {
-    display: inline-flex;
-    align-self: center;
-    list-style: none;
-  }
-
   nav {
     display: inline-flex;
     flex-flow: row;
@@ -162,8 +156,14 @@ footer a:hover {
     width: 100%;
     padding: 0px;
   }
-  nav #logo {
-    float: left;
+  nav li {
+    display: inline-flex;
+    align-self: center;
+    list-style: none;
+  }
+
+  #logo {
+    align-self: flex-start;
   }
   footer {
     flex-direction: row;
