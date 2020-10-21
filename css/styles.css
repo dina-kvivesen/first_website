@@ -139,7 +139,7 @@ footer a:hover {
 
 /*desktop styles*/
 @media only screen and (min-width: 600px) {
-  nav ul {
+  .nav_item {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -159,7 +159,7 @@ footer a:hover {
     display: none !important;
   }
 
-  nav {
+  nav li {
     display: flex;
     flex-flow: row wrap;
     display: block;
