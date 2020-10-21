@@ -163,7 +163,8 @@ footer a:hover {
     padding: 0px;
   }
   nav ul::before {
-    content: id= "logo";
+    content: url("../images/RainyDays_Logo.png");
+    width: 110px;
   }
   footer {
     flex-direction: row;
