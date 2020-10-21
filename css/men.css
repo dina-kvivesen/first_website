@@ -105,6 +105,6 @@ nav li {
 #hamburger-menu {
   display: none;
 }
-nav #hamburger-menu:checked ~ nav li {
+nav #hamburger-menu:checked ~ li {
   display: flex;
 }
