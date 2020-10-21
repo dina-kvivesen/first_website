@@ -148,13 +148,13 @@ footer a:hover {
 
   nav li {
     display: flex;
-    display: block;
     align-self: center;
     list-style: none;
   }
-  nav ul {
+
+  nav {
     display: flex;
-    align-items: baseline;
+    flex-flow: row;
     justify-content: space-between;
     background-color: #d9d9d9;
     opacity: 88%;
@@ -164,7 +164,6 @@ footer a:hover {
     width: 100%;
     padding: 0px;
   }
-
   footer {
     flex-direction: row;
     justify-content: center;
