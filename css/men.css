@@ -5,6 +5,9 @@ body {
   font-weight: 400;
   background: rgb(235, 235, 235);
 }
+main {
+  margin-top: 5%;
+}
 nav {
   display: inline-block;
   background-color: #d9d9d9;
