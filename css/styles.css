@@ -163,7 +163,7 @@ footer a:hover {
     padding: 0px;
   }
   nav #logo {
-    float: inline-start;
+    float: left;
   }
   footer {
     flex-direction: row;
