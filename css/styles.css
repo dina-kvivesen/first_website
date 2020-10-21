@@ -151,13 +151,13 @@ footer a:hover {
   }
 
   nav li {
-    display: flex;
+    display: inline-flex;
     align-self: center;
     list-style: none;
   }
 
-  #logo {
-    align-self: flex-start;
+  nav #logo {
+    float: left;
     width: 110px;
   }
   footer {
