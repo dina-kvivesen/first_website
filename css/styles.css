@@ -159,7 +159,7 @@ footer a:hover {
     display: none !important;
   }
 
-  nav li {
+  nav {
     display: flex;
     flex-flow: row wrap;
     display: block;
