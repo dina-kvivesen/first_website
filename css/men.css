@@ -5,32 +5,40 @@ body {
   font-weight: 400;
   background: rgb(235, 235, 235);
 }
-nav li {
+nav {
   display: inline-block;
-  padding-top: 25px;
-}
-nav ul {
-  min-height: 80px;
-  padding: 10px;
-  text-align: center;
   background-color: #d9d9d9;
   opacity: 88%;
+  margin: 0%;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  padding: 0px;
 }
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
-  font-size: 1.5rem;
-}
-#logo {
-  float: left;
-  height: 75px;
-  width: 140px;
+  font-size: 1.2rem;
 }
 .icons {
-  float: right;
-  padding-top: 25px;
   color: #0a3641;
+  align-self: center;
+  margin-right: 20px;
+}
+
+#search {
+  display: inline-flex;
+  font-size: 20px;
+}
+#faves {
+  display: inline-flex;
+  font-size: 20px;
+  margin-left: 15px;
+}
+#cart {
+  display: inline-flex;
+  font-size: 20px;
 }
 nav a:hover {
   font-weight: bold;
@@ -99,12 +107,84 @@ h1 {
   margin: 5px;
   padding: 0px;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer_list {
+  flex: 1;
+}
+footer a {
+  text-decoration: none;
+  color: #0a3641;
+}
+footer a:hover {
+  color: #7a432f;
+}
 nav li {
   display: none;
 }
-#hamburger-menu {
-  display: none;
+
+/*mobile styles*/
+@media only screen and (max-width: 799px) {
+  nav {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  #logo {
+    align-self: center;
+    width: 110px;
+    margin-left: 20px;
+  }
+  nav li {
+    display: flex;
+  }
+  nav li {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  nav #hamburger-menu:checked ~ li {
+    display: flex;
+  }
 }
-nav #hamburger-menu:checked ~ li {
-  display: flex;
+
+/*desktop styles*/
+@media only screen and (min-width: 800px) {
+  #hamburger-menu {
+    display: none;
+  }
+  label[for="hamburger-menu"] {
+    display: none !important;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+  }
+  nav ul {
+    display: inline-block;
+  }
+  .icons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #logo {
+    float: left;
+    width: 110px;
+    margin: 5px 10px;
+  }
+  nav {
+    text-align: center;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
