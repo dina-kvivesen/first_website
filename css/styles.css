@@ -147,13 +147,13 @@ footer a:hover {
   }
 
   nav li {
-    display: flex;
+    display: inline-flex;
     align-self: center;
     list-style: none;
   }
 
   nav {
-    display: flex;
+    display: inline-flex;
     flex-flow: row;
     justify-content: space-between;
     background-color: #d9d9d9;
