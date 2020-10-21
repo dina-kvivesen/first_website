@@ -8,7 +8,6 @@ body {
 }
 header {
   background-image: url("../images/headercr.jpg");
-  min-height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -163,7 +162,8 @@ footer a:hover {
   }
   .icons {
     float: right;
-    margin: auto 10px;
+    margin-top: 20px;
+    margin-right: 10px;
   }
   #logo {
     float: left;
