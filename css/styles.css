@@ -41,11 +41,7 @@ nav a {
   align-self: center;
   margin-right: 20px;
 }
-#logo {
-  align-self: center;
-  width: 110px;
-  margin-left: 20px;
-}
+
 #search {
   display: inline-flex;
   font-size: 20px;
@@ -82,18 +78,7 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-nav li {
-  display: flex;
-}
-nav li {
-  display: none;
-}
-#hamburger-menu {
-  display: none;
-}
-nav #hamburger-menu:checked ~ li {
-  display: flex;
-}
+
 div p {
   display: inline-block;
   align-items: center;
@@ -135,6 +120,27 @@ footer a:hover {
   color: #7a432f;
 }
 
+/*mobile styles*/
+@media only screen and (max-width: 799px) {
+  #logo {
+    align-self: center;
+    width: 110px;
+    margin-left: 20px;
+  }
+  nav li {
+    display: flex;
+  }
+  nav li {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  nav #hamburger-menu:checked ~ li {
+    display: flex;
+  }
+}
+
 /*desktop styles*/
 @media only screen and (min-width: 800px) {
   #hamburger-menu {
@@ -144,18 +150,6 @@ footer a:hover {
     display: none !important;
   }
 
-  nav {
-    display: inline-flex;
-    flex-flow: row;
-    justify-content: space-between;
-    background-color: #d9d9d9;
-    opacity: 88%;
-    margin: 0%;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    padding: 0px;
-  }
   nav li {
     display: inline-flex;
     align-self: center;
