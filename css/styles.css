@@ -15,7 +15,9 @@ header {
   margin-top: 0%;
   margin-top: 0%;
 }
-
+nav ul {
+  padding-left: 0px;
+}
 nav {
   display: inline-block;
   background-color: #d9d9d9;
@@ -65,10 +67,23 @@ h1 {
   left: 5%;
   bottom: 2%;
 }
+span {
+  display: block;
+}
 div p img:hover {
   opacity: 0.5;
-  position: relative;
   z-index: 50;
+}
+.sale {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+#menssale {
+  margin: 2%;
+}
+#womenssale {
+  margin: 2%;
 }
 nav a:hover {
   font-weight: bold;
@@ -77,10 +92,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-div p {
-  display: inline-block;
-  align-items: center;
-}
 h2 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -141,6 +152,7 @@ footer a:hover {
   }
   nav #hamburger-menu:checked ~ li {
     display: flex;
+    padding: 0px;
   }
 }
 

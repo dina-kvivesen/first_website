@@ -4,16 +4,20 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
+  padding: 0px;
+  margin: 0px;
 }
-
+header {
+  margin: 0px;
+  padding: 0px;
+}
 nav {
   display: inline-block;
   background-color: #d9d9d9;
-  opacity: 88%;
   position: fixed;
-  margin: 0%;
   width: 100%;
   padding: 0px;
+  margin-top: 0px;
 }
 nav a {
   color: #0a3641;
@@ -57,6 +61,8 @@ h1 {
   color: #0a3641;
   font-size: 1.8rem;
   text-align: center;
+  padding-top: 8%;
+  margin-top: 0px;
 }
 .dots {
   display: inline-block;
@@ -101,6 +107,7 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .item {
