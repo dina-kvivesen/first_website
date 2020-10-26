@@ -4,6 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
+  padding: 0px;
   margin: 0px;
 }
 header {
@@ -12,8 +13,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 0%;
-  margin-top: 0%;
+  margin: 0%;
+  margin: 0%;
 }
 nav ul {
   padding-left: 0px;
@@ -38,8 +39,8 @@ nav a {
 
 .icons {
   color: #0a3641;
-  align-self: center;
-  margin-right: 20px;
+  align-self: right;
+  margin: auto;
 }
 
 #search {
@@ -70,7 +71,7 @@ h1 {
 span {
   display: block;
 }
-div p img:hover {
+div img:hover {
   opacity: 0.5;
   z-index: 50;
 }
@@ -80,11 +81,12 @@ div p img:hover {
   margin: auto;
 }
 #menssale {
-  margin: 2%;
+  width: 40%;
 }
 #womenssale {
-  margin: 2%;
+  width: 40%;
 }
+
 nav a:hover {
   font-weight: bold;
 }
@@ -104,8 +106,9 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 2%;
+  margin: 5%;
 }
-
 input[type="submit"] {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
@@ -136,11 +139,6 @@ footer a:hover {
     justify-content: space-around;
   }
 
-  #logo {
-    align-self: center;
-    width: 110px;
-    margin-left: 20px;
-  }
   nav li {
     display: flex;
   }
@@ -152,7 +150,30 @@ footer a:hover {
   }
   nav #hamburger-menu:checked ~ li {
     display: flex;
-    padding: 0px;
+  }
+
+  #logo {
+    align-self: center;
+    width: 110px;
+    margin-left: 20px;
+  }
+
+  .icons {
+    color: #0a3641;
+    align-self: right;
+    margin: auto 2%;
+  }
+
+  #menssale {
+    width: 80%;
+    margin: auto;
+  }
+  #womenssale {
+    width: 80%;
+    margin: auto;
+  }
+  .sale {
+    margin: 10%;
   }
 }
 
@@ -186,6 +207,7 @@ footer a:hover {
   nav {
     text-align: center;
   }
+
   footer {
     flex-direction: row;
     justify-content: center;

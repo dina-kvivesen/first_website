@@ -104,10 +104,9 @@ h1 {
   border-radius: 50%;
 }
 .container {
-  display: inline-block;
-  align-items: center;
-  max-width: 25%;
-  margin: 5%;
+  display: block;
+  text-align: center;
+  margin: auto;
 }
 
 .item {
