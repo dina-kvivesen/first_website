@@ -290,6 +290,7 @@ footer a:hover {
   }
   .insta-container img {
     width: 25%;
+    height: auto;
   }
   .container {
     max-width: 600px;
