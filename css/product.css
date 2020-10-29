@@ -4,31 +4,34 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-  padding: 0px;
-  margin: 0px;
+  margin: 0%;
+  padding: 0%;
 }
-header {
-  margin: 0px;
-  padding: 0px;
+nav ul {
+  padding-left: 0px;
 }
 nav {
-  display: inline-block;
+  display: block;
   background-color: #d9d9d9;
+  opacity: 88%;
   position: fixed;
+  z-index: 100;
   width: 100%;
   padding: 0px;
-  margin-top: 0px;
+  margin: 0px;
 }
+
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
   font-size: 1.2rem;
 }
+
 .icons {
   color: #0a3641;
-  align-self: center;
-  margin-right: 20px;
+  align-self: right;
+  margin: auto;
 }
 
 #search {
@@ -50,9 +53,10 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
+
 div {
-  display: inline-block;
-  align-items: center;
+  display: block;
+  margin: 5px;
 }
 h1 {
   font-family: "hero-new", sans-serif;
@@ -61,12 +65,15 @@ h1 {
   color: #0a3641;
   font-size: 1.8rem;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 75px;
   margin-top: 0px;
 }
-.dots {
-  display: inline-block;
+h2 {
+  font-family: "hero-new", sans-serif;
+  color: #7a432f;
+  font-size: 1.5rem;
 }
+
 .dot1 {
   height: 25px;
   width: 25px;
@@ -85,43 +92,47 @@ h1 {
   background-color: tan;
   border-radius: 50%;
 }
-.dot4 {
-  height: 25px;
-  width: 25px;
-  background-color: black;
-  border-radius: 50%;
-}
-.dot5 {
-  height: 25px;
-  width: 25px;
-  background-color: yellow;
-  border-radius: 50%;
-}
-.dot6 {
-  height: 25px;
-  width: 25px;
-  background-color: blue;
-  border-radius: 50%;
-}
+
 .container {
   display: block;
-  text-align: center;
-  margin: auto;
+}
+.product {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.product2 {
+  max-width: 100px;
+}
+nav li {
+  display: none;
 }
 
-.item {
-  margin: 5px;
-  padding: 0px;
+input[type="submit"] {
+  background-color: #7a432f;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
 }
-
+#addtocart-button {
+  background-color: #0a3641;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: "hero-new", sans-serif;
+  margin: 0px;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
 footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 5%;
-}
-.footer_list {
-  flex: 1;
 }
 footer a {
   text-decoration: none;
@@ -130,33 +141,82 @@ footer a {
 footer a:hover {
   color: #7a432f;
 }
-nav li {
-  display: none;
+.footer_list {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 /*mobile styles*/
 @media only screen and (max-width: 799px) {
+  body {
+    font-size: 0.8rem;
+  }
   nav {
     display: inline-flex;
-    justify-content: space-around;
-  }
-
-  #logo {
-    align-self: center;
-    width: 110px;
-    margin-left: 20px;
+    justify-content: space-between;
   }
   nav li {
     display: flex;
   }
+
   nav li {
     display: none;
   }
+
   #hamburger-menu {
     display: none;
   }
-  nav #hamburger-menu:checked ~ li {
+
+  .icons {
+    color: #0a3641;
+    float: right;
+    margin: 20px 10px 20px 0px;
+  }
+  #search {
+    font-size: 15px;
+  }
+  #faves {
+    font-size: 15px;
+  }
+  #cart {
+    font-size: 15px;
+  }
+  #logo {
+    width: 80px;
+  }
+  nav #hamburger-menu:checked ~ ul li {
     display: flex;
+  }
+  nav label {
+    color: #0a3641;
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+  nav ul {
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+  }
+  nav a {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    padding-top: 70px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
   }
 }
 
@@ -190,8 +250,32 @@ nav li {
   nav {
     text-align: center;
   }
+  .container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 400px auto auto;
+    grid-gap: 1em;
+  }
+  .product {
+    margin: 0 auto;
+  }
+  .image-colors {
+    display: flex;
+    flex-direction: column;
+  }
+  #product2 {
+    padding-bottom: 5%;
+  }
+  .info {
+    justify-self: start;
+  }
+  .jacket-info {
+    max-width: 400px;
+  }
   footer {
     flex-direction: row;
-    justify-content: center;
+  }
+  .footer_list {
+    margin: 5%;
   }
 }

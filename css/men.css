@@ -27,8 +27,8 @@ nav a {
 }
 .icons {
   color: #0a3641;
-  align-self: center;
-  margin-right: 20px;
+  align-self: right;
+  margin: auto;
 }
 
 #search {
@@ -61,7 +61,7 @@ h1 {
   color: #0a3641;
   font-size: 1.8rem;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 75px;
   margin-top: 0px;
 }
 .dots {
@@ -116,12 +116,8 @@ h1 {
   padding: 0px;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 2%;
-  margin: 5%;
+nav li {
+  display: none;
 }
 input[type="submit"] {
   background-color: #7a432f;
@@ -134,8 +130,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 0.8;
 }
-.footer_list {
-  flex: 1;
+footer {
+  display: flex;
+  flex-direction: column;
 }
 footer a {
   text-decoration: none;
@@ -144,33 +141,85 @@ footer a {
 footer a:hover {
   color: #7a432f;
 }
-nav li {
-  display: none;
+.footer_list {
+  box-sizing: border-box;
+  width: 100%;
+}
+.product {
+  width: 268px;
 }
 
 /*mobile styles*/
 @media only screen and (max-width: 799px) {
+  body {
+    font-size: 0.8rem;
+  }
   nav {
     display: inline-flex;
-    justify-content: space-around;
-  }
-
-  #logo {
-    align-self: center;
-    width: 110px;
-    margin-left: 20px;
+    justify-content: space-between;
   }
   nav li {
     display: flex;
   }
+
   nav li {
     display: none;
   }
+
   #hamburger-menu {
     display: none;
   }
-  nav #hamburger-menu:checked ~ li {
+
+  .icons {
+    color: #0a3641;
+    float: right;
+    margin: 20px 10px 20px 0px;
+  }
+  #search {
+    font-size: 15px;
+  }
+  #faves {
+    font-size: 15px;
+  }
+  #cart {
+    font-size: 15px;
+  }
+  #logo {
+    width: 80px;
+  }
+  nav #hamburger-menu:checked ~ ul li {
     display: flex;
+  }
+  nav label {
+    color: #0a3641;
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+  nav ul {
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+  }
+  nav a {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    padding-top: 70px;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
   }
 }
 
@@ -204,8 +253,11 @@ nav li {
   nav {
     text-align: center;
   }
+
   footer {
     flex-direction: row;
-    justify-content: center;
+  }
+  .footer_list {
+    margin: 5%;
   }
 }

@@ -4,29 +4,56 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-}
-nav li {
-  display: inline-block;
-  padding-top: 25px;
+  margin: 0%;
+  padding: 0%;
 }
 nav ul {
-  min-height: 80px;
-  padding: 10px;
-  text-align: center;
+  padding-left: 0px;
+}
+nav {
+  display: block;
   background-color: #d9d9d9;
   opacity: 88%;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
+
 nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
-#logo {
-  float: left;
-  height: 75px;
-  width: 140px;
+
+.icons {
+  color: #0a3641;
+  align-self: right;
+  margin: auto;
 }
+
+#search {
+  display: inline-flex;
+  font-size: 20px;
+}
+#faves {
+  display: inline-flex;
+  font-size: 20px;
+  margin-left: 15px;
+}
+#cart {
+  display: inline-flex;
+  font-size: 20px;
+}
+nav a:hover {
+  font-weight: bold;
+}
+.active {
+  font-weight: bold;
+}
+
 header {
   background-image: url("../images/contact3.jpg");
   min-height: 800px;
@@ -39,12 +66,7 @@ section {
   padding-top: 25px;
   color: #0a3641;
 }
-nav a:hover {
-  font-weight: bold;
-}
-.active {
-  font-weight: bold;
-}
+
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -52,6 +74,8 @@ h1 {
   color: #0a3641;
   font-size: 1.8rem;
   text-align: center;
+  padding-top: 75px;
+  margin-top: 0%;
 }
 input[type="submit"] {
   background-color: #7a432f;
@@ -72,11 +96,164 @@ input[type="submit"] {
   max-height: 400px;
 }
 form {
-  float: right;
   padding: 10px;
-  margin: 5% 10%;
+  display: block;
+  margin: auto;
 }
-.column1 {
-  float: left;
-  margin: 10%;
+.text {
+  margin: auto;
+}
+input[type="submit"] {
+  background-color: #7a432f;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+}
+#sendbutton {
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-family: "hero-new", sans-serif;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  text-decoration: none;
+  color: #0a3641;
+}
+footer a:hover {
+  color: #7a432f;
+}
+.footer_list {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*mobile styles*/
+@media only screen and (max-width: 799px) {
+  body {
+    font-size: 0.8rem;
+  }
+  nav {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  nav li {
+    display: flex;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .icons {
+    color: #0a3641;
+    float: right;
+    margin: 20px 10px 20px 0px;
+  }
+  #search {
+    font-size: 15px;
+  }
+  #faves {
+    font-size: 15px;
+  }
+  #cart {
+    font-size: 15px;
+  }
+  #logo {
+    width: 80px;
+  }
+  nav #hamburger-menu:checked ~ ul li {
+    display: flex;
+  }
+  nav label {
+    color: #0a3641;
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+  nav ul {
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+  }
+  nav a {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    padding-top: 70px;
+  }
+  .text {
+    text-align: center;
+  }
+  #sendbutton {
+    margin-left: 20px;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+  }
+}
+
+/*desktop styles*/
+@media only screen and (min-width: 800px) {
+  #hamburger-menu {
+    display: none;
+  }
+  label[for="hamburger-menu"] {
+    display: none !important;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+  }
+  nav ul {
+    display: inline-block;
+  }
+  .icons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #logo {
+    float: left;
+    width: 110px;
+    margin: 5px 10px;
+  }
+  nav {
+    text-align: center;
+  }
+  #sendbutton {
+    margin-left: 60%;
+  }
+  .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+  .footer_list {
+    margin: 5%;
+  }
 }

@@ -17,77 +17,106 @@
   <body>
     <header>
       <nav>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
         <ul>
-          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-          <input type="checkbox" id="hamburger-menu">
           <li><a href="index.html">HOME</a></li>
           <li><a href="men.html" class="active">MEN</a></li>
           <li><a href="women.html">WOMEN</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
-          <a href="index.html"
+        <a href="index.html"
           ><img src="images/RainyDays_Logo.png" alt="logo" id="logo"
         /></a>
 
-          <div class="icons">
-            <i class="fas fa-search" alt="search" id="search"></i>
-            <i class="fas fa-heart" alt="favorites" id="faves"></i>
-            <a href="checkout.html"
-              ><i class="fas fa-shopping-cart" alt="cart" id="cart"></i
-            ></a>
+        <div class="icons">
+          <i class="fas fa-search" alt="search" id="search"></i>
+          <i class="fas fa-heart" alt="favorites" id="faves"></i>
+          <a href="checkout.html"
+            ><i class="fas fa-shopping-cart" alt="cart" id="cart"></i
+          ></a>
         </div>
       </nav>
-</header>
+    </header>
 
     <main>
-
       <h1>Men's jackets</h1>
 
       <section class="container">
-      <img
-            src="images/displayjacket1.jpeg"
-            alt="productone"
-            class="product"
-            id="product"
-            style="max-width: 400px;"
+        <img
+          src="images/displayjacket1.jpeg"
+          alt="greenjacket"
+          class="product"
+          id="product"
+        />
+        <div class="image-colors">
+          <img
+            src="images/beige.jpg"
+            alt="tanjacket"
+            class="product2"
+            id="product2"
           />
-          <div class="info">
-          <p>Jacket name</p>
+
+          <img
+            src="images/red jacket.jpg"
+            alt="redjacket"
+            class="product2"
+            id="product3"
+          />
+        </div>
+        <div class="info">
+          <h2>Jacket name</h2>
           <p>Nok 899</p>
+          <p>Color</p>
           <div class="dots">
             <div class="dot1" alt="olivegreen"></div>
-            <div class="dot2"></div>
-            <div class="dot3"></div>
+            <div class="dot2" alt="red"></div>
+            <div class="dot3" alt="beige"></div>
+          </div>
+          <p>Size</p>
+          <p>S M L XL</p>
+          <a href="checkout.html">
+            <input type="submit" value="Add to cart" id="addtocart-button"
+          /></a>
         </div>
+      </section>
+      <div class="jacket-info">
+        <h2>Jacket info</h2>
+        <p>
+          This is a product detail. Here are some information about the product
+          such as sizing, material, care and cleaning instructions. It also says
+          something about what makes this product special and how users can
+          benefit from this item.
+        </p>
       </div>
-        </section>
-
     </main>
 
     <footer>
       <div class="footer_list">
-          <h3>About</h3>
-          <p><a href="about.html">About us</a></p>
-          <p><a href="contact.html">Contact us</a></p>
-        </div>
-        <div class="footer_list">
-          <h3>Socials</h3> 
-          <p><i class="fab fa-instagram" alt="instagram"></i> Instagram</p>
-          <p><i class="fab fa-facebook-square" alt="facebook"></i> Facebook</p>
-        </div>
-        <div class="footer_list">
-      <form action="form-success.php" method="GET">
-        <div class="container">
-          <h3>Newsletter</h3>
-          <p>Get our news and updates</p>
+        <h4>About</h4>
+        <p><a href="about.html">About us</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+      </div>
+      <div class="footer_list">
+        <h4>Socials</h4>
+        <p><i class="fab fa-instagram" alt="instagram"></i> Instagram</p>
+        <p><i class="fab fa-facebook-square" alt="facebook"></i> Facebook</p>
+      </div>
+      <div class="footer_list">
+        <form action="form-success.php" method="GET">
+          <div class="container-footer">
+            <h4>Newsletter</h4>
+            <p>Get our news and updates</p>
 
-          <div class="container">
-            <input type="text" placeholder="Enter your email here*" name="mail" required>
-          </div>
-        
-          <div class="container">
-            <input type="submit" value="Subscribe">
+            <input
+              type="text"
+              placeholder="Enter your email here*"
+              name="mail"
+              required
+            />
+
+            <input type="submit" value="Subscribe" />
           </div>
         </form>
       </div>

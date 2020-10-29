@@ -17,62 +17,86 @@
   <body>
     <header>
       <nav>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
         <ul>
-          <a href="index.html"
-            ><img src="images/RainyDays_Logo.png" alt="logo" id="logo"
-          /></a>
           <li><a href="index.html">HOME</a></li>
           <li><a href="men.html">MEN</a></li>
           <li><a href="women.html">WOMEN</a></li>
           <li><a href="about.html" class="active">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
-          <section>
-            <i class="fas fa-search" alt="search"></i>
-            <i class="fas fa-heart" alt="favorites"></i>
-            <a href="checkout.html"
-              ><i class="fas fa-shopping-cart" alt="cart"></i
-            ></a>
-          </section>
         </ul>
+        <a href="index.html"
+          ><img src="images/RainyDays_Logo.png" alt="logo" id="logo"
+        /></a>
+
+        <div class="icons">
+          <i class="fas fa-search" alt="search" id="search"></i>
+          <i class="fas fa-heart" alt="favorites" id="faves"></i>
+          <a href="checkout.html"
+            ><i class="fas fa-shopping-cart" alt="cart" id="cart"></i
+          ></a>
+        </div>
       </nav>
     </header>
     <main>
       <h1>Our story</h1>
+      <div class="container">
+        <div class="text">
+          <p>
+            This is a text about the company, services and the team. It says a
+            bit about who they are and what makes them different from their
+            competitors.
+          </p>
 
-      <img
-        src="images/aboutcr.jpg"
-        alt="photoofus"
-        style="width: 50%"
-        height="50%"
-        class="column1of3"
-      />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta
+            cursus tellus, sit amet lobortis nulla consectetur a. In id tellus
+            leo. Fusce interdum commodo odio, ut viverra massa condimentum ut.
+            Nullam luctus convallis eros, eu pellentesque leo vehicula at. Duis
+            tempor felis vel vehicula placerat.
+          </p>
 
-      <div class="column2of3">
-        <p>
-          This is a text about the company, services and the team. It says a bit
-          about who they are and what makes them different from their
-          competitors. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Donec porta cursus tellus, sit amet lobortis nulla consectetur a. In
-          id tellus leo. Fusce interdum commodo odio, ut viverra massa
-          condimentum ut. Nullam luctus convallis eros, eu pellentesque leo
-          vehicula at. Duis tempor felis vel vehicula placerat.
-        </p>
-      </div>
-      <div class="column3of3">
-        <h3>Sustainability</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta
-          cursus tellus, sit amet lobortis nulla consectetur a. In id tellus
-          leo. Fusce interdum commodo odio, ut viverra massa condimentum ut.
-          Nullam luctus convallis eros, eu pellentesque leo vehicula at. Duis
-          tempor felis vel vehicula placerat.
-        </p>
+          <h3>Sustainability</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta
+            cursus tellus, sit amet lobortis nulla consectetur a. In id tellus
+            leo. Fusce interdum commodo odio, ut viverra massa condimentum ut.
+            Nullam luctus convallis eros, eu pellentesque leo vehicula at. Duis
+            tempor felis vel vehicula placerat.
+          </p>
+        </div>
+        <img src="images/aboutcr.jpg" alt="photoofus" class="image" />
       </div>
     </main>
     <footer>
-      <p>About Socials Newsletter</p>
-      <i class="fab fa-instagram" alt="instagram"></i>
-      <i class="fab fa-facebook-square" alt="facebook"></i>
+      <div class="footer_list">
+        <h4>About</h4>
+        <p><a href="about.html">About us</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+      </div>
+      <div class="footer_list">
+        <h4>Socials</h4>
+        <p><i class="fab fa-instagram" alt="instagram"></i> Instagram</p>
+        <p><i class="fab fa-facebook-square" alt="facebook"></i> Facebook</p>
+      </div>
+      <div class="footer_list">
+        <form action="form-success.php" method="GET">
+          <div class="container-footer">
+            <h4>Newsletter</h4>
+            <p>Get our news and updates</p>
+
+            <input
+              type="text"
+              placeholder="Enter your email here*"
+              name="mail"
+              required
+            />
+
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
     </footer>
   </body>
 </html>

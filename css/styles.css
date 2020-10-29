@@ -56,6 +56,12 @@ nav a {
   display: inline-flex;
   font-size: 20px;
 }
+nav a:hover {
+  font-weight: bold;
+}
+.active {
+  font-weight: bold;
+}
 
 h1 {
   font-family: "caflisch-script-pro";
@@ -75,6 +81,8 @@ h2 {
   color: #0a3641;
   font-size: 1.8rem;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 h3 {
   font-family: "hero-new", sans-serif;
@@ -83,6 +91,16 @@ h3 {
   color: #0a3641;
   font-size: 1.5rem;
   text-align: center;
+  margin-top: 30px;
+}
+h5 {
+  font-family: "hero-new", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 70px;
 }
 span {
   display: block;
@@ -126,12 +144,6 @@ span {
   text-transform: uppercase;
   font-size: 2rem;
 }
-nav a:hover {
-  font-weight: bold;
-}
-.active {
-  font-weight: bold;
-}
 
 .insta-container {
   display: flex;
@@ -143,9 +155,26 @@ nav a:hover {
 .insta-container img {
   width: 268px;
 }
-footer {
+.container {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.item {
+  margin: 5px;
+  padding: 0px;
+}
+.product {
+  width: 268px;
+}
+.item :nth-child(3) {
+  text-decoration: line-through;
+}
+.item :nth-child(4) {
+  color: red;
 }
 input[type="submit"] {
   background-color: #7a432f;
@@ -158,7 +187,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 0.8;
 }
-
+footer {
+  display: flex;
+  flex-direction: column;
+}
 footer a {
   text-decoration: none;
   color: #0a3641;
@@ -173,9 +205,12 @@ footer a:hover {
 
 /*mobile styles*/
 @media only screen and (max-width: 799px) {
+  body {
+    font-size: 0.8rem;
+  }
   nav {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   nav li {
     display: flex;
@@ -192,20 +227,37 @@ footer a:hover {
   .icons {
     color: #0a3641;
     float: right;
-    margin: 25px 0px 0px 0px;
+    margin: 20px 10px 20px 0px;
+  }
+  #search {
+    font-size: 15px;
+  }
+  #faves {
+    font-size: 15px;
+  }
+  #cart {
+    font-size: 15px;
   }
   #logo {
-    width: 100px;
+    width: 80px;
   }
-  nav #hamburger-menu:checked ~ li {
+  nav #hamburger-menu:checked ~ ul li {
     display: flex;
   }
-  ul label {
+  nav label {
     color: #0a3641;
     display: block;
     position: absolute;
     left: 15px;
-    top: 25px;
+    top: 20px;
+  }
+  nav ul {
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+  }
+  nav a {
+    padding: 5px;
+    font-size: 1rem;
   }
   header {
     min-height: 500px;
@@ -219,10 +271,13 @@ footer a:hover {
     bottom: 27%;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 1.4rem;
   }
   .sale {
     width: 90%;
@@ -233,8 +288,18 @@ footer a:hover {
 
   .insta-container img {
     max-width: 25%;
-    max-height: 25%;
     flex-direction: row;
+  }
+  .container {
+    max-width: 600px;
+  }
+  .product {
+    width: 125px;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
   }
 }
 
@@ -271,6 +336,8 @@ footer a:hover {
 
   footer {
     flex-direction: row;
-    justify-content: center;
+  }
+  .footer_list {
+    margin: 5%;
   }
 }
