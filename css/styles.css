@@ -171,7 +171,7 @@ span {
 }
 .insta-container img {
   width: 268px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .container {
   display: flex;
