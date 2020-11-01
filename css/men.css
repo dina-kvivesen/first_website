@@ -30,7 +30,28 @@ nav a {
   align-self: right;
   margin: auto;
 }
+.searchTerm {
+  border: none;
+  border-right: none;
+  padding: 5px;
+  height: 15px;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+  font-family: "hero-new", arial, sans-serif;
+  width: 100px;
+}
 
+.searchButton {
+  display: inline-flex;
+  font-size: 20px;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  background: none;
+  color: #0a3641;
+  cursor: pointer;
+}
 #search {
   display: inline-flex;
   font-size: 20px;
@@ -149,8 +170,8 @@ footer a:hover {
   width: 268px;
 }
 
-/*mobile styles*/
-@media only screen and (max-width: 799px) {
+/*mobile/tablet styles*/
+@media only screen and (max-width: 950px) {
   body {
     font-size: 0.8rem;
   }
@@ -175,17 +196,24 @@ footer a:hover {
     float: right;
     margin: 20px 10px 20px 0px;
   }
-  #search {
-    font-size: 15px;
-  }
   #faves {
     font-size: 15px;
+    padding-left: 0px;
+    margin-left: 0px;
   }
+  .searchTerm {
+    display: none;
+  }
+  .searchButton {
+    display: none;
+  }
+
   #cart {
     font-size: 15px;
   }
   #logo {
     width: 80px;
+    margin-left: 50%;
   }
   nav #hamburger-menu:checked ~ ul li {
     display: flex;
@@ -224,7 +252,7 @@ footer a:hover {
 }
 
 /*desktop styles*/
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 951px) {
   #hamburger-menu {
     display: none;
   }
