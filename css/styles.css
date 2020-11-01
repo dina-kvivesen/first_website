@@ -309,7 +309,9 @@ footer a:hover {
   .centered-text {
     font-size: 1.5rem;
   }
-
+  .insta-container {
+    height: fit-content;
+  }
   .insta-container img {
     width: 25%;
   }
