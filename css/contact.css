@@ -98,33 +98,69 @@ h1 {
   padding-top: 75px;
   margin-top: 0%;
 }
-input[type="submit"] {
-  background-color: #7a432f;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 12px;
-  margin-left: 20px;
-}
-.form__input {
-  display: block;
-  padding: 10px;
-  margin: 20px;
-}
-#subject {
-  min-width: 200px;
-  max-width: 400px;
-  max-height: 400px;
-}
-form {
-  padding: 10px;
-  display: block;
-  margin: auto;
-}
+
 .text {
   margin: auto;
 }
-input[type="submit"] {
+form {
+  padding: 1em;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+}
+
+.text-box {
+  width: 90%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+  background: lightgray;
+}
+
+.send-button {
+  background-color: #0a3641;
+  opacity: 0.8;
+  color: white;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  width: 100px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "hero-new", arial, sans-serif;
+}
+button:hover {
+  opacity: 1;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+#subject {
+  height: 200px;
+  width: 90%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+  background: lightgray;
+}
+.message {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+#newsletter-button {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
   border: none;
@@ -132,13 +168,8 @@ input[type="submit"] {
   padding: 5px;
   margin: 10px;
 }
-#sendbutton {
-  border-radius: 20px;
-  padding: 5px 20px;
-  font-size: 15px;
-  font-family: "hero-new", sans-serif;
-}
-input[type="submit"]:hover {
+
+#newsletter-button:hover {
   opacity: 0.8;
 }
 footer {
@@ -228,9 +259,7 @@ footer a:hover {
   .text {
     text-align: center;
   }
-  #sendbutton {
-    margin-left: 20px;
-  }
+
   footer {
     flex-direction: row;
     justify-content: center;
@@ -268,14 +297,18 @@ footer a:hover {
   nav {
     text-align: center;
   }
-  #sendbutton {
-    margin-left: 60%;
-  }
+
   .container {
     display: grid;
     align-items: center;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
+  }
+  send-button {
+    width: 150px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 16px;
   }
 
   footer {

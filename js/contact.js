@@ -2,13 +2,11 @@ const form = document.querySelector("form");
 const formName = document.querySelector("#name");
 const subject = document.querySelector("#subject");
 const email = document.querySelector("#email");
-const address = document.querySelector("#address")
 const message = document.querySelector("#message");
 const button = document.querySelector("button");
 const nameError = document.querySelector("#nameError");
 const subjectError = document.querySelector("#subjectError");
 const emailError = document.querySelector("#emailError");
-const addressError = document.querySelector("#addressError");
 
 // function to run when the form is submitted
 function validateForm(event) {
@@ -32,12 +30,6 @@ function validateForm(event) {
         emailError.style.display = "none";
     } else {
         emailError.style.display = "block";
-        message.innerHTML = "";
-    }
-    if (checkLength(address.value, 25) === true) {
-        addressError.style.display = "none";
-    } else {
-        addressError.style.display = "block";
         message.innerHTML = "";
     }
     // clear all input values
