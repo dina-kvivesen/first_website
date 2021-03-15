@@ -165,8 +165,6 @@ span {
 .image-carousel {
   display: flex;
   max-width: 800px;
-  margin-left: 5px;
-  margin-right: 5px;
   margin: 0 auto;
   background: #FFF;
 }
@@ -334,10 +332,10 @@ footer a:hover {
     max-width: 600px;
   }
   figure {
-    height: 300px;
+    height: 200px;
   }
   .image-carousel img {
-    height: 300px;
+    height: 200px;
   }
   .container {
     max-width: 600px;
