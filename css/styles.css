@@ -329,13 +329,13 @@ footer a:hover {
     height: fit-content;
     padding-top: 0px;
     padding-bottom: 0px; 
-    max-width: 600px;
+    max-width: 543px;
   }
   figure {
-    height: 300px;
+    height: 250px;
   }
   .image-carousel img {
-   height: 300px;
+   height: 250px;
   }
   .container {
     max-width: 600px;
