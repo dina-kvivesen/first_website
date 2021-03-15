@@ -152,6 +152,7 @@ label {
   color: white;
   border-radius: 1rem;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 .form-error {

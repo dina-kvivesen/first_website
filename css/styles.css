@@ -162,16 +162,29 @@ span {
   font-size: 2rem;
 }
 
-.insta-container {
+.image-carousel {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  margin: auto;
-  max-width: 1200px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #FFF;
 }
-.insta-container img {
-  width: 268px;
-  object-fit: contain;
+.image-carousel img {
+  height: 400px;
+}
+figure {
+  margin: 0px;
+  flex: 1;
+  transition: 0.5s all;
+  overflow: hidden;
+  opacity: 0.5;
+  height: 400px;
+}
+figure:hover {
+  cursor: pointer;
+}
+.selected-image {
+  flex: 3;
+  opacity: 1;
 }
 .container {
   display: flex;
@@ -309,13 +322,17 @@ footer a:hover {
   .centered-text {
     font-size: 1.5rem;
   }
-  .insta-container {
+  .image-carousel {
     height: fit-content;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; 
+    max-width: 400px;
   }
-  .insta-container img {
-    width: 25%;
+  figure {
+    height: 200px;
+  }
+  .image-carousel img {
+    height: 200px;
   }
   .container {
     max-width: 600px;
@@ -360,7 +377,10 @@ footer a:hover {
   nav {
     text-align: center;
   }
-
+a, h2 {
+  text-decoration: none;
+  cursor: pointer;
+}
   footer {
     flex-direction: row;
   }
