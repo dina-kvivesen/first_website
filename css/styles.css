@@ -322,6 +322,9 @@ footer a:hover {
   .centered-text {
     font-size: 1.5rem;
   }
+  a, h2 {
+    text-decoration-color: #0a3641;
+  }
   .image-carousel {
     height: fit-content;
     padding-top: 0px;
