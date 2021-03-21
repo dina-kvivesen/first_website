@@ -8,7 +8,7 @@ body {
   margin: 0px;
 }
 header {
-  background-image: url("../images/headercr.jpg");
+  background-image: url("../images/explore1.jpeg");
   min-height: 650px;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,17 +80,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-h1 {
-  font-family: "caflisch-script-pro";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2rem;
-  color: #ebebeb;
-  letter-spacing: 10px;
-  position: absolute;
-  left: 5%;
-  bottom: 15%;
-}
 h2 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -119,9 +108,7 @@ h5 {
   text-align: center;
   padding-top: 70px;
 }
-#header-text {
-  display: block;
-}
+
 .sale {
   display: flex;
   flex-flow: row;
@@ -192,7 +179,6 @@ figure:hover {
   margin: auto;
   max-width: 1200px;
 }
-
 .item {
   margin: 5px;
   padding: 0px;
@@ -231,6 +217,40 @@ footer a:hover {
 .footer_list {
   box-sizing: border-box;
   width: 100%;
+}
+.explore-div {
+  width: 100%;
+  min-height: 650px;
+  position: absolute;
+}
+#explore-button {
+  background-color: #0a3641;
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 8px;
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  opacity: 85%;
+}
+#explore-button:hover {
+background-color: transparent;
+color: #0a3641;
+border: 2px solid #0a3641;
+}
+h1 {
+  position: absolute;
+  font-weight: lighter;
+  margin-top: 150px;
+  width: 100%;
+  text-align: center;
+  color: #0a3641;
+  text-transform: uppercase;
 }
 
 /*mobile/tablet styles*/
@@ -298,13 +318,6 @@ footer a:hover {
   header {
     min-height: 550px;
     background-size: cover;
-  }
-  h1 {
-    font-size: 1.4rem;
-    letter-spacing: 5px;
-    position: absolute;
-    left: 5%;
-    bottom: 27%;
   }
   h2 {
     font-size: 1.4rem;
@@ -390,5 +403,11 @@ h2 a {
   }
   .footer_list {
     margin: 5%;
+  }
+  #explore-button {
+    margin-top: 250px;
+  }
+  h1 {
+    margin-top: 180px;
   }
 }
