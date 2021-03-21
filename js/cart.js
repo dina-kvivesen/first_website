@@ -116,3 +116,13 @@ if (cartItems && productContainer) {
 
 onLoadCartNumbers();
 displayCart();
+
+var trashButton = document.querySelectorAll("#trash-icon");
+
+for(var i = 0; i < trashButton.length; i++) {
+    var button = trashButton[i]
+    button.addEventListener('click', function(event){
+        var buttonClicked = event.target
+        buttonClicked.parentElement.parentElement.remove()
+})
+}

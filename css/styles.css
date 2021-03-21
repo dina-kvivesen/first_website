@@ -119,10 +119,9 @@ h5 {
   text-align: center;
   padding-top: 70px;
 }
-span {
+#header-text {
   display: block;
 }
-
 .sale {
   display: flex;
   flex-flow: row;
