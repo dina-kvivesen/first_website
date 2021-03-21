@@ -242,6 +242,7 @@ footer a:hover {
 background-color: transparent;
 color: #0a3641;
 border: 2px solid #0a3641;
+font-weight: bold;
 }
 h1 {
   position: absolute;
