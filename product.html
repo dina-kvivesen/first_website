@@ -3,7 +3,7 @@
   <head>
     <title>Rainydays | Men's jackets - Jacket Name</title>
     <meta name="description" content="jackets for your next adventure" />
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
     <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
     <link
@@ -51,13 +51,15 @@
           </a>
           <a href="checkout.html"
             ><i class="fas fa-shopping-cart" title="cart" id="cart"></i
-          ></a>
+          ><span>0</span></a>
         </div>
       </nav>
     </header>
 
     <main>
       <h1>Men's jackets</h1>
+<div class="product-section">
+      <span><a href="https://rainydays-dinakv.netlify.app/men.html"> Men </a> > Jacket name</span>
 
       <section class="container">
         <img
@@ -84,17 +86,39 @@
         <div class="info">
           <h2>Jacket name</h2>
           <p>Nok 899</p>
-          <p>Color</p>
+          <div class="dots-container">
+          <p>Color:</p>
           <div class="dots">
-            <div class="dot1" alt="olivegreen"></div>
-            <div class="dot2" alt="red"></div>
-            <div class="dot3" alt="beige"></div>
+            <label class="color-container">Olive green
+              <input type="radio" checked="checked" name="radio">
+              <span class="dot1"></span>
+            </label><br>
+          
+            <label class="color-container">Red
+              <input type="radio" name="radio">
+              <span class="dot2"></span>
+            </label><br>
+
+            <label class="color-container">Beige
+              <input type="radio" name="radio">
+              <span class="dot3"></span>
+            </label><br>
           </div>
-          <p>Size</p>
-          <p>S M L XL</p>
-          <a href="checkout.html">
-            <input type="submit" value="Add to cart" id="addtocart-button"
-          /></a>
+        </div>
+  
+          <div class="size-container">
+          <label for="choose-size">Select size:</label><br>
+          <select id="choose-size" name="choose-size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extra large">Extra Large</option>
+          </select>
+        </div>
+        
+          
+            <input type="submit" value="Add to cart" id="addtocart-button">
+          
         </div>
       </section>
       <div class="jacket-info">
@@ -106,6 +130,7 @@
           benefit from this item.
         </p>
       </div>
+    </div>
     </main>
 
     <footer>
@@ -137,5 +162,6 @@
         </form>
       </div>
     </footer>
+    <script src="js/cart.js"></script>
   </body>
 </html>

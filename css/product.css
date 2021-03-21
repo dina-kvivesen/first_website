@@ -94,24 +94,56 @@ h2 {
   color: #7a432f;
   font-size: 1.5rem;
 }
-
+.color-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
 .dot1 {
+  display: block;
+  margin-right: 10px;
   height: 25px;
   width: 25px;
   background-color: olive;
   border-radius: 50%;
 }
+.color-container:hover input ~ .dot1 {
+  background-color: #0a3641;
+}
+.color-container input:checked ~.dot1 {
+  background-color: #0a3641;
+}
+
 .dot2 {
+  display: block;
+  margin-right: 10px;
   height: 25px;
   width: 25px;
   background-color: red;
   border-radius: 50%;
 }
+.color-container:hover input ~ .dot2 {
+  background-color: #0a3641;
+}
+.color-container input:checked ~.dot2 {
+  background-color: #0a3641;
+}
 .dot3 {
+  display: block;
+  margin-right: 10px;
   height: 25px;
   width: 25px;
   background-color: tan;
   border-radius: 50%;
+}
+.color-container:hover input ~ .dot3 {
+  background-color: #0a3641;
+}
+.color-container input:checked ~ .dot3 {
+  background-color: #0a3641;
+}
+.dots-container {
+  margin: 2rem 0 0 0;
 }
 
 .container {
@@ -146,10 +178,14 @@ input[type="submit"] {
   flex-direction: column;
   font-size: 15px;
   font-family: "hero-new", sans-serif;
-  margin: 0px;
+  margin: 2rem 0 0 0;
 }
 input[type="submit"]:hover {
   opacity: 0.8;
+}
+.product-section {
+  max-width: 1200px;
+  margin: auto;
 }
 footer {
   display: flex;
@@ -166,6 +202,8 @@ footer a:hover {
   box-sizing: border-box;
   width: 100%;
 }
+
+
 
 /*mobile/tablet styles*/
 @media only screen and (max-width: 950px) {

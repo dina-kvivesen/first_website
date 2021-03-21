@@ -9,7 +9,7 @@ body {
 }
 header {
   background-image: url("../images/headercr.jpg");
-  min-height: 600px;
+  min-height: 650px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -297,7 +297,7 @@ footer a:hover {
     font-size: 1rem;
   }
   header {
-    min-height: 500px;
+    min-height: 550px;
     background-size: cover;
   }
   h1 {
@@ -322,14 +322,15 @@ footer a:hover {
   .centered-text {
     font-size: 1.5rem;
   }
-  a, h2 {
+  h2 a {
     text-decoration-color: #0a3641;
+    color: #0a3641;
   }
   .image-carousel {
     height: fit-content;
     padding-top: 0px;
     padding-bottom: 0px; 
-    max-width: 543px;
+    max-width: 540px;
   }
   figure {
     height: 250px;
@@ -380,7 +381,8 @@ footer a:hover {
   nav {
     text-align: center;
   }
-a, h2 {
+h2 a {
+  color: #0a3641;
   text-decoration: none;
   cursor: pointer;
 }

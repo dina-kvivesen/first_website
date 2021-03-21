@@ -3,7 +3,7 @@
   <head>
     <title>Rainydays | Pushing the comfort zone - Checkout</title>
     <meta name="description" content="jackets for your next adventure" />
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
     <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
     <link
@@ -24,6 +24,8 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+<script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <header>
@@ -51,32 +53,29 @@
           </a>
           <a href="checkout.html"
             ><i class="fas fa-shopping-cart" title="cart" id="cart"></i
-          ></a>
+          ><span>0</span></a>
         </div>
       </nav>
     </header>
     <main>
       <h1>My cart</h1>
-      <p>1.Order summary</p>
-      <div class="cart-content">
-        <img
-          src="images/displayjacket1.jpeg"
-          alt="productone"
-          class="product"
-          id="product"
-        />
-        <div class="product-text">
-          <div class="info">
-            <p>Jacket name</p>
-            <p>Green</p>
-            <p>Small</p>
+
+      <h2>Order summary</h2>
+      <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">Product</h5>
+            <h5 class="price">Price</h5>
+            <h5 class="quantity">Quantity</h5>
+            <h5 class="total">Total</h5>
           </div>
-          <div class="price">
-            <p>Shipping Nok 0</p>
-            <p>Subtotal Nok 899</p>
+          <div class="products">
+
           </div>
         </div>
-
+          
+           
+          
+<div class="form-container">
         <form action="form-success.php" method="GET" class="payment-form">
           <fieldset>
             <legend>Payment details</legend>
@@ -145,6 +144,7 @@
           </fieldset>
         </form>
       </div>
+    </div>
     </main>
     <footer>
       <div class="footer_list">
@@ -173,7 +173,9 @@
             <input type="submit" value="Subscribe" />
           </div>
         </form>
-      </div>
+      
     </footer>
+    
+    <script src="js/cart.js"></script>
   </body>
 </html>

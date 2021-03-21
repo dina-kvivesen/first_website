@@ -4,8 +4,9 @@ body {
   font-style: normal;
   font-weight: 400;
   background: rgb(235, 235, 235);
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+
 }
 nav ul {
   padding-left: 0px;
@@ -91,7 +92,6 @@ section {
   padding-top: 25px;
   color: #0a3641;
 }
-
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -102,27 +102,101 @@ h1 {
   padding-top: 75px;
   margin-top: 0px;
 }
+
 h2 {
-  font-family: "hero-new", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: #0a3641;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   text-align: center;
 }
-.price :nth-child(2) {
-  font-weight: bold;
+h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+.products-container {
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.product-header {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.product-title {
+  width: 45%;
+  border-bottom: 1px solid #0a3641;
+}
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #0a3641;
+}
+.quantity {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #0a3641;
+}
+.total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #0a3641;
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #0a3641;
+}
+.products-container ion-icon {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products img {
+  width: 75px;
+}
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+.basketTotalTitle {
+  width: 30%;
+}
+.basketTotal {
+  width: 10%;
+}
+#minus-icon, #trash-icon {
+  margin-left: 0;
+}
+#plus-icon {
+  margin-right: 0;
 }
 .section1,
 .section2 {
   display: inline-block;
   align-items: center;
 }
-fieldset {
-  display: inline-block;
-  margin: auto;
-}
-
 input[type="submit"] {
   background-color: #7a432f;
   color: rgb(235, 235, 235);
@@ -137,11 +211,12 @@ input[type="submit"] {
   background-color: #0a3641;
   color: rgb(235, 235, 235);
   border: none;
-  border-radius: 20px;
-  padding: 10px 10px;
+  border-radius: 30px;
+  padding: 20px 10px;
   font-size: 15px;
   font-family: "hero-new", sans-serif;
   display: block;
+  margin: 1rem 0;
 }
 #checkout-button:hover {
   font-weight: bold;
@@ -155,12 +230,14 @@ input[type="submit"]:hover {
 .section2 {
   margin: 10px;
 }
-p {
-  margin: 0px;
-  padding: 5px;
+.form-container {
+  max-width: 450px;
+  margin: 2rem auto;
 }
-.cart-content img {
-  max-width: 150px;
+.payment-form {
+  padding: 0 5%;
+  display: inline-block;
+  margin: auto;
 }
 footer {
   display: flex;
@@ -241,29 +318,17 @@ footer a:hover {
     padding: 5px;
     font-size: 1rem;
   }
-
   h1 {
     font-size: 1.4rem;
     padding-top: 70px;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
-  h3 {
-    font-size: 1.3rem;
+  h5 {
+    font-size: 0.9rem;
   }
-
-  .cart-content {
-    margin-left: 5%;
-  }
-
-  #checkout-button {
-    padding: 8px 12px;
-    margin-top: 5%;
-
-    font-size: 0.8rem;
-  }
-
+  
   footer {
     flex-direction: row;
     justify-content: center;
@@ -301,33 +366,12 @@ footer a:hover {
   nav {
     text-align: center;
   }
-
-  .payment-form {
-    padding: 5%;
-    display: inline-block;
-    margin: 0% 5%;
+  .form__input {
+    width: 300px;
   }
-
-  .price {
-    margin-top: 5%;
-    padding-top: 5%;
-    border-top: solid;
-    border-width: 1px;
-  }
-  .cart-content {
-    display: grid;
-    align-items: start;
-    grid-template-columns: auto auto auto;
-    grid-gap: 1em;
-  }
-  .cart-content img {
-    margin: 0 auto;
-    max-width: 150px;
-  }
-  .info,
-  .price {
-    display: flex;
-    flex-direction: column;
+  .form-container {
+    max-width: 800px;
+    margin: 2rem auto;
   }
   footer {
     flex-direction: row;
