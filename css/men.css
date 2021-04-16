@@ -70,10 +70,7 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-div {
-  display: inline-block;
-  align-items: center;
-}
+
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -123,17 +120,12 @@ h1 {
   background-color: blue;
   border-radius: 50%;
 }
-.container {
+.products {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: auto;
   max-width: 1200px;
-}
-
-.item {
-  margin: 5px;
-  padding: 0px;
 }
 
 nav li {
@@ -165,8 +157,12 @@ footer a:hover {
   box-sizing: border-box;
   width: 100%;
 }
-.product {
+img {
   width: 268px;
+}
+.products a {
+  text-decoration: none;
+  color: black;
 }
 
 /*mobile/tablet styles*/

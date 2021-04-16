@@ -74,11 +74,6 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-
-div {
-  display: block;
-  margin: 5px;
-}
 h1 {
   font-family: "hero-new", sans-serif;
   font-weight: 200;
@@ -202,7 +197,15 @@ footer a:hover {
   box-sizing: border-box;
   width: 100%;
 }
-
+.details-image {
+  margin-bottom: 1em;
+}
+.productinfo {
+  max-width: 500px;
+}
+img {
+  width: 268px;
+}
 
 
 /*mobile/tablet styles*/
@@ -268,7 +271,12 @@ footer a:hover {
     padding: 5px;
     font-size: 1rem;
   }
-
+main {
+  margin-left: 1em;
+}
+.productinfo {
+  max-width: 400px;
+}
   h1 {
     font-size: 1.4rem;
     padding-top: 70px;
@@ -316,27 +324,21 @@ footer a:hover {
   nav {
     text-align: center;
   }
-  .container {
-    display: grid;
-    align-items: start;
-    grid-template-columns: 400px auto auto;
-    grid-gap: 1em;
-  }
-  .product {
-    margin: 0 auto;
-  }
-  .image-colors {
+  
+  .product-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-wrap;
+    justify-content: space-around;
+    margin: auto;
   }
-  #product2 {
-    padding-bottom: 5%;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
   }
-  .info {
-    justify-self: start;
-  }
-  .jacket-info {
-    max-width: 400px;
+  .productinfo {
+    margin-left: 10%;
   }
   footer {
     flex-direction: row;
