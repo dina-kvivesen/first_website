@@ -1,9 +1,11 @@
 const url = "http://dinakvivesen.com/rainydays/wp-json/wc/store/products";
+const corsFix = "https://noroffcors.herokuapp.com/" + url;
+
 const productContainer = document.querySelector(".products");
 
 async function getProducts() {
     try{
-        const response = await fetch(url);
+        const response = await fetch(corsFix);
         const getResults = await response.json();
         createHTML(getResults);
     }
