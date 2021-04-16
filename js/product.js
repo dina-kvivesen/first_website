@@ -7,7 +7,8 @@ const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
 console.log(id);
-
+const url_api = "http://dinakvivesen.com/rainydays/wp-json/wc/store/products";
+const corsFix = "https://noroffcors.herokuapp.com/" + url_api;
 const url = "http://dinakvivesen.com/rainydays/wp-json/wc/store/products/" + id;
 
 async function getProduct() {
