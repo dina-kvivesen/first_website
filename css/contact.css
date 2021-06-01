@@ -27,7 +27,6 @@ nav a {
   padding: 10px;
   font-size: 1.2rem;
 }
-
 .icons {
   color: #0a3641;
   align-self: right;
@@ -44,7 +43,6 @@ nav a {
   font-family: "hero-new", arial, sans-serif;
   width: 100px;
 }
-
 .searchButton {
   display: inline-flex;
   font-size: 20px;
@@ -74,13 +72,11 @@ nav a:hover {
 .active {
   font-weight: bold;
 }
-
 header {
   background-image: url("../images/contact3.jpg");
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: scroll;
 }
 section {
   float: right;
@@ -145,7 +141,9 @@ label {
   padding: 10px;
   font-size: 16px;
   background: lightgray;
+  font-family: "hero-new", arial, sans-serif;
 }
+
 .message {
   background: green;
   padding: 1rem;
@@ -260,7 +258,9 @@ footer a:hover {
   .text {
     text-align: center;
   }
-
+#subject {
+  font-size: 0.8rem;
+}
   footer {
     flex-direction: row;
     justify-content: center;

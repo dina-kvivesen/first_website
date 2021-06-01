@@ -102,11 +102,13 @@ h2 {
   background-color: olive;
   border-radius: 50%;
 }
-.color-container:hover input ~ .dot1 {
-  background-color: #0a3641;
+.color-container:hover input ~ .dot1, .color-container:hover input ~ .dot2, .color-container:hover input ~ .dot3 {
+  border: 2px solid #0a3641;
+  box-sizing: border-box;
 }
-.color-container input:checked ~.dot1 {
-  background-color: #0a3641;
+.color-container input:checked ~ .dot1, .color-container input:checked ~ .dot2, .color-container input:checked ~ .dot3 {
+  border: 5px solid #0a3641;
+  box-sizing: border-box;
 }
 
 .dot2 {
@@ -117,12 +119,6 @@ h2 {
   background-color: red;
   border-radius: 50%;
 }
-.color-container:hover input ~ .dot2 {
-  background-color: #0a3641;
-}
-.color-container input:checked ~.dot2 {
-  background-color: #0a3641;
-}
 .dot3 {
   display: block;
   margin-right: 10px;
@@ -131,12 +127,7 @@ h2 {
   background-color: tan;
   border-radius: 50%;
 }
-.color-container:hover input ~ .dot3 {
-  background-color: #0a3641;
-}
-.color-container input:checked ~ .dot3 {
-  background-color: #0a3641;
-}
+
 .dots-container {
   margin: 2rem 0 0 0;
 }
@@ -335,7 +326,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto;
+    margin: auto 0;
   }
   .productinfo {
     margin-left: 10%;

@@ -6,7 +6,6 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-console.log(id);
 const api_url = "http://dinakvivesen.com/rainydays/wp-json/wc/store/products/";
 const corsFix = "https://noroffcors.herokuapp.com/" + api_url;
 const url = corsFix + id;
@@ -16,8 +15,6 @@ async function getProduct() {
     try {
     const response = await fetch(url);
     const details = await response.json();
-
-console.log(details);
 
 for (let i = 0; i < details.length; i++) {
     console.log(details[i]);
