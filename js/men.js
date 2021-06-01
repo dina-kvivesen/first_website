@@ -1,4 +1,4 @@
-const url = "http://dinakvivesen.com/rainydays/wp-json/wc/store/products";
+const url = "https://dinakvivesen.com/rainydays/wp-json/wc/store/products/";
 
 const corsFix = "https://noroffcors.herokuapp.com/" + url;
 
@@ -9,6 +9,7 @@ async function getProducts() {
         const response = await fetch(corsFix);
         const getResults = await response.json();
         createHTML(getResults);
+        console.log(getResults);
 
     }
     catch(error){
@@ -21,6 +22,7 @@ function createHTML(products){
 
 
     for (let i = 0; i < products.length; i++) {
+        console.log(products[i]);
         if(i ==+ 8) {
             break;
         }
