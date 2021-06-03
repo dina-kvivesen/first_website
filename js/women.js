@@ -8,6 +8,7 @@ async function getProducts() {
     try{
         const response = await fetch(corsFix);
         const getResults = await response.json();
+        productContainer.innerHTML = "";
         createHTML(getResults);
     }
     catch(error){
